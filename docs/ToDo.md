@@ -1,2 +1,2 @@
 # important things todo
-1. make the font works on index page.
+1. select proper font from google.

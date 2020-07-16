@@ -10,7 +10,7 @@
     --ff-primary: 'Cousine', monospace;
     --ff-secondary: 'Dancing Script', cursive;
 
-    --fw-reg: 400;
+    --fw-reg: 5;
     --fw-bold: 700;
 
     --clr-light: #fff;
@@ -47,6 +47,9 @@ img {
     max-width: 100%;
 }
 
+strong {
+    font-weight: var(--fw-bold);
+}
 
 /* Typography */
 
@@ -60,3 +63,26 @@ h3 {
 h1 { font-size: var(--fs-h1) }
 h2 { font-size: var(--fs-h2) }
 h3 { font-size: var(--fs-h3) }
+
+.section__title {
+    margin-bottom: .20em;
+}
+
+.section__title--intro {
+    font-weight: var(--fw-reg);
+}
+
+.section__title--intro strong {
+    display: block;
+}
+
+.section__subtitle {
+    margin: 0;
+    font-size: var(--fs-h3);
+}
+
+.section__subtitle--intro,
+.section__subtitle--about {
+    background: var(--clr-accent);
+    font-family: var(--ff-secondary);
+}
