@@ -397,11 +397,13 @@ nav {
 }
 
 .portfolio__item {
-    background: var(--clr-accent);
+    /* background: var(--clr-accent); */
+    margin: 3em auto;
     overflow: hidden;
 
     /* debug */
-    /* background-color: red !important; */
+    /* background-color: red !important;
+    border: 3px solid darkblue; */
 
     /* Grid properties */
     display: grid;
@@ -416,16 +418,17 @@ nav {
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
     height: 150px;
+    border-radius: 75px;
 
     /* debug */
-    background-color: yellow;
+    /* background-color: yellow; */
 
     /* Grid properties */
     grid-area: img;
 }
 
 .portfolio__stars {
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
 
     /* Grid properties */
     grid-area: stars;
