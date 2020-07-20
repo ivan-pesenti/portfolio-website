@@ -1,4 +1,20 @@
 # important things todo
-1. select proper font from google.
-2. Resize images properly with the same height and width.
-3. Choose images that make sense to the application.
+- select proper font from google.
+- Resize images properly with the same height and width.
+- Choose images that make sense to the application.
+- fix css styles
+- create some effects
+- my work area:
+    development
+    cooperate on projects
+    training    
+
+
+# to review
+- fill in the proper links to the social list icons. OK
+
+
+
+# done
+
+
