@@ -253,21 +253,35 @@ nav {
 
 @media (min-width: 600px) {
     .intro {
-        display: grid;
         width: min-content;
         margin: 0 auto;
+        
+        /* Grid properties */
+        display: grid;
         column-gap: 1em;
         grid-template-areas:
+            "img ."
             "img title"
             "img subtitle";
         grid-template-columns: min-content max-content;
+        grid-template-rows: [first] 5% [second] auto [third] auto [fourth];
     }
 
     .intro__img {
-        grid-area: img;
-        min-width: 250px;
+        min-width: 290px;
+        width: 100%;
         position: relative;
         z-index: 2;
+        height: 100%;        
+        
+        /* Grid properties */
+        grid-area: img;
+    }
+
+    .section__title--intro {
+
+        /* Grid properties */
+        grid-area: title;
     }
 
     .section__subtitle--intro {
@@ -276,8 +290,11 @@ nav {
         grid-row: 2;
         text-align: right;
         position: relative;
-        left: -1.5em;
-        width: calc(100% + 1.5em);
+        left: -15.5em;
+        width: calc(100% + 15.5em);
+
+        /* Grid properties */
+        grid-area: subtitle;
     }
 }
 
