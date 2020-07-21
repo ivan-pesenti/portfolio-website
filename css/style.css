@@ -7,7 +7,7 @@
 /* custom properties, update these for your own design */
 
 :root {
-    --ff-primary: 'Cousine', monospace;
+    --ff-primary: 'Lora', serif;
     --ff-secondary: 'Dancing Script', cursive;
 
     --fw-reg: 5;
@@ -284,6 +284,7 @@ nav {
     display: inline-block;
     width: 100%;
     text-align: left;
+    color: var(--clr-light);
 }
 
 @media (min-width: 600px) {
@@ -405,45 +406,89 @@ nav {
 /* About me */
 
 .about-me {
-    max-width: 1000px;
     margin: 0 auto;
+        
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+}
+
+.about-me p {
+    text-align: justify;
 }
 
 @media (min-width: 600px) {
-    .about-me {
+
+    .about-me__container {
+        width: 55%;
+        margin: 0 auto;
+        
+        /* Debug */
+        /* border: 3px solid yellow; */
+
+        /* Grid properties */        
         display: grid;
-        grid-template-columns: 1fr 200px;
+        /* grid-template-columns: 1fr 200px; */
+        grid-template-columns: [first] 48% [second] 4% [third] 48% [fourth];
         grid-template-areas:
-            "title img"
-            "subtitle img"
-            "text img";
-            column-gap: 2em;
+            "content . img"
+            "content . img"
+            "content . final";
+        
+        /* column-gap: 2em; */
     }
 
     .section__title--about {
         grid-area: title;
+        padding: .25em 0;
+        margin-top: 0px;
     }
 
     .section__subtitle--about {
-        grid-column: 1 / -1;
-        grid-row: 2;
-        position: relative;
-        left: -1em;
-        width: calc(100% + 2em);
-        padding-left: 2em;
-        padding-right: calc(200px + 4em);
+        /* grid-column: 1 / -1; */
+        /* grid-row: 2; */
+        /* position: relative; */
+        /* left: -1em; */
+        /* width: calc(100% + 2em); */
+        /* padding-left: 2em; */
+        /* padding-right: calc(200px + 4em); */
+        /* padding: 0; */
+        text-align: left;
+    }
+
+    .about-me__content{
+        /* debug */
+        /* border: 3px solid brown; */
+        padding: 0px;
+        margin: 0px;
+
+        grid-area: content;
     }
 
     .about-me__img {
        grid-area: img;
-       position: relative;
-       z-index: 2;
+       /* position: relative; */
+       /* z-index: 2;        */
+       /* height: 10px;
+       width: 1000px; */
+       height: 100%;
+       margin-top: 1em;
+
+       /* debug */
+       /* border: 3px solid red; */
+    }
+
+    .about-me__final {
+        grid-area: final;
+
+        /* debug */
+        /* border: 3px solid green; */
+
     }
 }
 
-/* My Work */
+/* My Slikks */
 
-.my-work {
+.my-skills {
     background-color: var(--clr-dark);
     color: var(--clr-light);
     text-align: center;
