@@ -8,7 +8,6 @@
     development
     cooperate on projects
     training    
-- uncommit the .vscode from Git
 
 # to review
 - fill in the proper links to the social list icons. OK
