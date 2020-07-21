@@ -8,11 +8,10 @@
     development
     cooperate on projects
     training    
+- choose an appropiate favicon
 
 # to review
 - fill in the proper links to the social list icons. OK
-
-
 
 # done
 
