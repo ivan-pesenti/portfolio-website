@@ -102,10 +102,12 @@ h3 { font-size: var(--fs-h3) }
 
 .section__title {
     margin-bottom: .20em;
+    margin-top: 0.5em;
 }
 
 .section__title--intro {
     font-weight: var(--fw-reg);
+    color: var(--clr-light);
 }
 
 .section__title--intro strong {
@@ -136,7 +138,6 @@ h3 { font-size: var(--fs-h3) }
 header {
     display: flex;
     justify-content: space-between;
-    padding: 1em;
 }
 
 .logo {
@@ -242,22 +243,31 @@ nav {
 .intro {
     position: relative;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto;    
     
-    /* Debug */
     background-color: var(--clr-dark);
     background-image: url(../img/intro/cover.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center;  
 }
 
+/* .intro__container {
+    margin: 0;
+} */
+
 .intro__img {
-    box-shadow: var(--bs);
+    /* box-shadow: var(--bs);     */
+    
+    /* debug */
+    width: 350px;
+    margin: 0 auto;
 }
 
 .section__subtitle--intro {
     display: inline-block;
+    width: 100%;
+    text-align: left;    
 }
 
 @media (min-width: 600px) {
@@ -265,6 +275,28 @@ nav {
         /* width: min-content; */
         
         /* debug */
+        background-image: url(../img/intro/cover.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        /* Grid properties */
+        /* display: grid;
+        column-gap: 1em;
+        grid-template-areas:
+            "img ."
+            "img title"
+            "img subtitle";
+        grid-template-columns: min-content max-content;
+        grid-template-rows: [first] 5% [second] auto [third] auto [fourth]; */
+    }
+
+    .intro__container {
+        margin: 0 auto;
+        width: 50%;
+        
+        /* debug */
+        /* background: yellowgreen; */
 
         /* Grid properties */
         display: grid;
@@ -282,8 +314,8 @@ nav {
         width: 100%;
         position: relative;
         z-index: 2;
-        height: 100%;        
-        
+        height: 100%;  
+                
         /* Grid properties */
         grid-area: img;
     }
@@ -295,13 +327,13 @@ nav {
     }
 
     .section__subtitle--intro {
-        align-self: start;
+        /* align-self: start; */
         grid-column: -1 / 1;
         grid-row: 2;
         text-align: right;
         position: relative;
-        left: -15.5em;
-        width: calc(100% + 15.5em);
+        /* left: -15.5em; */
+        /* width: calc(100% + 15.5em); */
 
         /* Grid properties */
         grid-area: subtitle;
