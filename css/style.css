@@ -171,12 +171,24 @@ nav {
     padding: 0;
 }
 
+.nav__list i {
+    font-size: var(--fs-h2);
+}
+
+.nav__list i:hover {
+    color: var(--clr-accent);
+}
+
 .nav__link {
     color: inherit;
     font-weight: var(--fw-bold);
     font-size: var(--fs-h2);
     text-decoration: none;
     cursor: inherit;
+    
+    /* debug */
+    text-align: left;
+    width: 100em;
 }
 
 .nav__link:hover {
