@@ -388,6 +388,22 @@ nav {
     z-index: 1000;
 }
 
+.services p::selection {
+    color: var(--clr-accent);
+}
+
+.services h3::selection {
+    color: var(--clr-accent);
+}
+
+.services p::-moz-selection {
+    color: var(--clr-accent);
+}
+
+.services h3::-moz-selection {
+    color: var(--clr-accent);
+}
+
 .service {
     max-width: 500px;
     margin: 0 auto;
@@ -417,6 +433,16 @@ nav {
 
 .about-me p {
     text-align: justify;
+}
+
+.about-me__container p::selection {
+    /* background-color: var(--clr-accent); */
+    color: var(--clr-accent);
+}
+
+.about-me__container p::-moz-selection {
+    /* background-color: var(--clr-accent); */
+    color: var(--clr-accent);
 }
 
 @media (min-width: 600px) {
