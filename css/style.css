@@ -374,7 +374,8 @@ nav {
 
 .my-services {
     background-color: var(--clr-dark);
-    background-image: url(../img/services/services-01.jpg); /*use both image and color in case the image is not loaded, otherwise the text became not readable */
+    background-image: url(../img/services/services-01.jpg); 
+    /*use both image and color in case the image is not loaded, otherwise the text became not readable */
     background-size: cover;    
     background-blend-mode: multiply; /* make the background image darker and the text more readable*/    
 
@@ -634,10 +635,22 @@ nav {
 
 .social-list__item {
     margin: 0 .5em;
+    font-size: 30px;
+}
+
+.social-list__item a {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    padding-left: 2em;
+    padding-top: 0;
+    margin-top: 0;
+    margin-left: -2em;
 }
 
 .social-list__link {
-    padding: .5em;
+    padding: .5em;     
+    
 }
 
 /* Individual portfolio item styles */
