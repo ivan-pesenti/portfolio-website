@@ -8,7 +8,8 @@
 
 :root {
     --ff-primary: 'Lora', serif;
-    --ff-secondary: 'Dancing Script', cursive;
+    /* --ff-secondary: 'Dancing Script', cursive; */
+    --ff-secondary: 'Shadows Into Light', cursive;
 
     --fw-reg: 5;
     --fw-bold: 700;
