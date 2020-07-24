@@ -120,13 +120,7 @@ h3 { font-size: var(--fs-h3) }
     font-size: var(--fs-h3);
 }
 
-.section__subtitle--about {
-    background: var(--clr-accent);
-    font-family: var(--ff-secondary);
-    margin-bottom: 1em;
-    padding: .25em 1em;
-}
-
+.section__subtitle--about,
 .section__subtitle--intro {
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
@@ -262,16 +256,6 @@ nav {
     font-size: 1.75em;
 }
 
-.intro__img {
-    /* width: 350px;
-    margin: 0 auto; */    
-}
-
-.intro__img img {
-    min-width: 250px;
-}
-
-
 @media (min-width: 768px) {
 
     .intro__container {
@@ -331,8 +315,10 @@ nav {
 }
 
 .section__title--services {
-    color: var(--clr-accent);
-    position: relative;
+    /* color: var(--clr-accent);
+    position: relative; */
+    
+    color: var(--clr-light);
 }
 
 .section__title--services::after {
@@ -365,6 +351,14 @@ nav {
 .service {
     max-width: 500px;
     margin: 0 auto;
+}
+
+.service p {
+    text-align: justify;
+}
+
+.service h3 {
+    text-align: left;
 }
 
 @media (min-width: 800px) {
@@ -420,10 +414,6 @@ nav {
         grid-area: title;
         padding: .25em 0;
         margin-top: 0px;
-    }
-
-    .section__subtitle--about {
-        text-align: left;
     }
 
     .about-me__content{
