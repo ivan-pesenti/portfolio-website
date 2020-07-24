@@ -47,7 +47,12 @@ body {
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
     line-height: 1.6;
-    cursor: url('../img/navbar/rocket-solid.svg'), pointer;
+    /* cursor: url('../img/navbar/rocket-solid.svg'), pointer; */
+    cursor: url('../img/navbar/Alvin-the-owl.svg'), pointer;
+    cursor: -webkit-image-set(
+        url('../img/navbar/Alvin-the-owl.svg') 1x
+    ), pointer;
+    /* cursor: url(../img/navbar/rocket-solid.svg), url(../img/navbar/cursor\ \(2\).cur), pointer; */
 }
 
 img {
@@ -393,6 +398,11 @@ nav {
 
 .about-me__container p::-moz-selection {
     color: var(--clr-accent);
+}
+
+.about-me__final img {
+    display: inline;
+    vertical-align: text-bottom;
 }
 
 @media (min-width: 600px) {
