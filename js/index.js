@@ -10,5 +10,7 @@ navToggle.addEventListener('click', () => {
 navLinks.forEach(link => {
     link.addEventListener('click', () => {
         document.body.classList.remove('nav-open');
+        document.getElementById('iconToToggle').classList.toggle('fa-times-circle');
+
     });
 });

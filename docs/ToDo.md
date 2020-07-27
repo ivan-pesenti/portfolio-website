@@ -1,5 +1,5 @@
 # important things todo
 - fix media query (higher px)
-- fix rocket cursor in firefox
+- fix ipad prod space under the title section
 
 # done
