@@ -21,6 +21,10 @@
     </head>
     <body>
         <header>
+            <div class="lang-wrap">
+                <a href="#" language='english' class="active">EN</a>
+                <a href="#" language='italiano'>IT</a>
+            </div>
             <button class="nav-toggle" aria-label="toggle navigation">
                 <span class="hamburger">
                     <i id="iconToToggle" class="fas fa-hamburger"></i>
@@ -66,7 +70,7 @@
             <div class="about-me__container">
                 <div class="about-me__content">
                     <h2 class="section__title section__title--about">Who I am</h2>
-                    <h3 class="section__subtitle section__subtitle--about">developer <i class="fas fa-code"></i> footballer <i class="fas fa-futbol"></i>, biker <i class="fas fa-biking"></i> .&nbsp;.&nbsp;. and much more!!!</h3>
+                    <h3 class="section__subtitle section__subtitle--about">developer <i class="fas fa-code"></i>, footballer <i class="fas fa-futbol"></i>, biker <i class="fas fa-biking"></i> .&nbsp;.&nbsp;. and much more!!!</h3>
         
                     <div class="about-me__body">
                         <p>I'm 24 years old and I live in Bergamo with my family (near Milano, north-Italy).
@@ -94,7 +98,7 @@
             <div class="services">
                 <div class="service">
                     <h3 class="section__subtitle section__subtitle--services">Programming</h3>
-                    <p>I've been working as a software developer since 2014. My core skill is to build web api, using different languages and platforms. I've got also some knowledge about building UI for web site. I'm also be able to manage database and programming against different database languages. I'm also practicing with new technologies and programming languages. </p>
+                    <p>I've been working as a software developer since 2014. My core skill is to build web api, using different languages and platforms. I've got also some knowledge about building UI for web site. I'm also be able to manage database and programming against different database languages. I'm also practicing with new technologies and programming languages.</p>
                 </div> <!-- / service -->
 
                 <div class="service">
@@ -112,8 +116,8 @@
 
         <!-- My skills -->
         <section class="my-skills" id="skills">
-            <h2 class="section__title section__title--work">Tech Skills</h2>
-            <h3 class="section__subtitle section__subtitle--work">Maybe I can help you in something like those:</h3>
+            <h2 class="section__title section__title--skills">Tech Skills</h2>
+            <h3 class="section__subtitle section__subtitle--skills">Maybe I can help you in something like those:</h3>
 
             <div class="portfolio">
 
@@ -296,7 +300,12 @@
             </ul>
         </footer>
 
+        <script type="module" src="js\language-db.js">
+
+        </script>
         <script src="js\index.js">
+        </script>
+        <script type="module" src="js\switch-language.js">
         </script>
     </body>
 </html>
