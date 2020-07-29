@@ -198,7 +198,7 @@ nav {
     background: transparent;
     border: 0;
     cursor: inherit;
-    position: fixed;
+    position: absolute;
     right: 2em;
     top: 1.5em;
     z-index: 1000;
@@ -225,6 +225,54 @@ nav {
 
 .active {
     background-color: red;
+}
+
+.lang-alien {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: flex;
+
+}
+
+.lang-alien-btn {
+    width: 120px;
+    padding-top: 1em;
+    background-color: transparent;
+    border: none;
+    cursor: inherit;
+    display: inline-block;
+}
+
+.lang-alien-btn:focus {
+    outline: none;
+}
+
+.lang-alien .animate__animated.animate__fadeInLeft {
+    --animate-duration: 2s;
+}
+
+.lang-alien .active {
+    /* debug */
+    border: 2px solid red;
+}
+
+.lang-alien .hidden {
+    /* visibility: hidden; */
+
+    /* debug */
+    border: 2px dashed green;
+}
+
+@media (min-width: 700px) {
+    .nav-toggle {
+        position: fixed;
+    }
+
+    .lang-alien {
+        position: fixed;
+    }
 }
 
 

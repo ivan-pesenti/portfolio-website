@@ -1,6 +1,7 @@
 # important things todo
 - fix media query (higher px)
 - fix ipad prod space under the title section
+- move a bit the header section to the right in order to make free space for the switch language feature
 
 # done
 

@@ -1,8 +1,5 @@
 import {data} from './language-db.js';
 
-const langEl = document.querySelector('.lang-wrap');
-const link = langEl.querySelectorAll('a');
-
 // item to change based on the language
 const homeNavbar = document.querySelector('.nav__list').getElementsByTagName('li')[0].getElementsByTagName('a')[0];
 const aboutNavbar = document.querySelector('.nav__list').getElementsByTagName('li')[1].getElementsByTagName('a')[0];
@@ -24,7 +21,40 @@ const bodyServicesLast = document.querySelector('.services').getElementsByTagNam
 const titleSkills = document.querySelector('.section__title--skills');
 const subtitleSkills = document.querySelector('.section__subtitle--skills');
 
+// effect animation
+const defaultAlien = document.querySelector('.lang-alien').getElementsByTagName('a')[0];
+var languageAliens = document.querySelector('.lang-alien').getElementsByTagName('a');
+
+// const langEl = document.querySelector('.lang-wrap');
+// const link = langEl.querySelectorAll('a');
+
+defaultAlien.addEventListener('click', () => {
+    // document.querySelector('.lang-alien').getElementsByTagName('a')[1].classList.remove('hidden'); // TODO re-enable it when done
+
+    // loop htmlcollection and apply css class
+    for (let index = 1; index < languageAliens.length; index++) {
+        languageAliens[index].classList.add('animate__animated', 'animate__fadeInLeft');        
+    } 
+});
+
+// add click event to all of the aliens if it's clicked than it became active and the other became  
+for (let index = 0; index < languageAliens.length; index++) {
+    languageAliens[index].addEventListener('click', () => {
+        // remove active class on the previous selected item
+        document.getElementsByClassName('lang-alien-btn active')[0].classList.remove('active');
+
+        // apply hidden to other elements
+        document.getElementsByClassName('lang-alien-btn')
+
+        // add active class on current selected item
+        languageAliens[index].classList.add('active');
+    });
+    
+}
+
 // loop on link in order to add/remove class active from buttons
+// TODO reenable when done
+/*
 link.forEach (el => {
     el.addEventListener('click', () => {
         // remove class active from the current selected item
@@ -58,3 +88,4 @@ link.forEach (el => {
 
     });
 });
+*/

@@ -9,6 +9,8 @@
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
             integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+            <link rel="stylesheet" 
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.min.css" integrity="sha512-kb1CHTNhoLzinkElTgWn246D6pX22xj8jFNKsDmVwIQo+px7n1yjJUZraVuR/ou6Kmgea4vZXZeUDbqKtXkEMg==" crossorigin="anonymous" />
 
         <link rel="stylesheet" href="css\style.css">
 
@@ -21,10 +23,24 @@
     </head>
     <body>
         <header>
-            <div class="lang-wrap">
+            <!-- TODO remove when alien works -->
+            <!-- <div class="lang-wrap">
                 <a href="#" language='english' class="active">EN</a>
                 <a href="#" language='italiano'>IT</a>
+            </div> -->
+
+            <div class="lang-alien">
+                <a class="lang-alien-btn active">
+                    <img src="./img/language/roger_en.png" alt="">
+                </a>
+                <a class="lang-alien-btn hidden">
+                    <img src="./img/language/roger_it.png" alt="">
+                </a>
+                <a class="lang-alien-btn hidden">
+                    <img src="./img/language/roger_fr.png" alt="">
+                </a>
             </div>
+
             <button class="nav-toggle" aria-label="toggle navigation">
                 <span class="hamburger">
                     <i id="iconToToggle" class="fas fa-hamburger"></i>
