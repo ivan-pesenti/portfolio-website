@@ -29,7 +29,6 @@ const alienLinks = document.querySelectorAll('.alien__link');
 alienToggle.addEventListener('click', () => {
     document.getElementById('alienToToggle').classList.toggle('fa-times-circle');
     document.getElementById('alien-nav').classList.toggle('alien-open');
-    // document.getElementById("alien-nav").style.width = "100%"
 });
 
 
@@ -37,42 +36,6 @@ alienToggle.addEventListener('click', () => {
 
 alienLinks.forEach(al => {
     al.addEventListener('click', () => {        
-
-        // get selected language        
-        const languageSelected = al.getAttribute('language');
-
-        // set innerHtml of the element
-        // TODO re-enable when done
-        // homeNavbar.innerHTML = data[languageSelected].homeNavbar;
-        // aboutNavbar.innerHTML = data[languageSelected].aboutNavbar;
-        // servicesNavbar.innerHTML = data[languageSelected].servicesNavbar;
-        // skillsNavbar.innerHTML = data[languageSelected].skillsNavbar;
-        // titleIntro.innerHTML = data[languageSelected].titleIntro;
-        // titleAbout.innerHTML = data[languageSelected].titleAbout;
-        // subtitleAbout.innerHTML = data[languageSelected].subtitleAbout;
-        // bodyAboutFirst.innerHTML = data[languageSelected].bodyAboutFirst;
-        // bodyAboutSecond.innerHTML = data[languageSelected].bodyAboutSecond;
-        // bodyAboutFinal.innerHTML = data[languageSelected].bodyAboutLast;
-        // titleServices.innerHTML = data[languageSelected].titleServices;
-        // subtitleServicesFirst.innerHTML = data[languageSelected].subtitleServicesFirst;
-        // bodyServicesFirst.innerHTML = data[languageSelected].bodyServicesFirst;
-        // subtitleServicesSecond.innerHTML = data[languageSelected].subtitleServicesSecond;
-        // bodyServicesSecond.innerHTML = data[languageSelected].bodyServicesSecond;
-        // subtitleServicesLast.innerHTML = data[languageSelected].subtitleServicesLast;
-        // bodyServicesLast.innerHTML = data[languageSelected].bodyServicesLast;
-        // titleSkills.innerHTML = data[languageSelected].titleSkills;
-        // subtitleSkills.innerHTML = data[languageSelected].subtitleSkills;
-
-        // remove alien-open class in order to collapse it to the left 
-        document.getElementById('alien-nav').classList.remove('alien-open');
-        document.getElementById('alienToToggle').classList.toggle('fa-times-circle');
-        // document.getElementById("alien-nav").style.width = "0%"
-
-    });
-});
-
-/*for (let index = 0; index < alienLinks.length; index++) {
-    alienLinks[index].addEventListener('click', () => {        
 
         // get selected language        
         const languageSelected = al.getAttribute('language');
@@ -99,8 +62,8 @@ alienLinks.forEach(al => {
         subtitleSkills.innerHTML = data[languageSelected].subtitleSkills;
 
         // remove alien-open class in order to collapse it to the left 
-        document.body.classList.remove('alien-open');
+        document.getElementById('alien-nav').classList.remove('alien-open');
         document.getElementById('alienToToggle').classList.toggle('fa-times-circle');
 
-    });    
-}*/
+    });
+});

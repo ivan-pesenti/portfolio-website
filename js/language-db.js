@@ -22,7 +22,7 @@ export var data = {
         "subtitleSkills": "Maybe I can help you in something like those:"
 
     },
-    "italiano": 
+    "italian": 
     {
         "homeNavbar": "<i class=\"fas fa-home\"></i>&nbsp;Home",
         "aboutNavbar": "<i class=\"far fa-address-card\"></i>&nbsp;Su di me",
