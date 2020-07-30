@@ -190,7 +190,7 @@ nav {
     display: flex;
     height: 100%;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     margin: 0;
     padding: 0;
@@ -281,7 +281,7 @@ header button:focus {
     display: flex;
     height: 100%;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     margin: 0;
     padding: 0;
