@@ -50,6 +50,17 @@ body {
     cursor: url('../img/navbar/rocket.cur'), pointer;
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
 img {
     display: block;
     max-width: 100%;
@@ -189,6 +200,10 @@ nav {
     cursor: inherit;
 }
 
+.alien__link {
+    font-size: var(--fs-h2);
+}
+
 .nav__link:hover {
     color: var(--clr-accent);
 }
@@ -204,73 +219,82 @@ nav {
     z-index: 1000;
 }
 
-.nav-toggle:focus {
-    outline: 0px;
-}
-
-.nav-open .nav{
+.nav-open .nav {
     transform: translateX(0);
 }
 
-.hamburger {
+.hamburger,
+.alien-language {
     display: block;
     margin-left: 26px;    
 }
 
-#iconToToggle {
+#iconToToggle,
+#alienToToggle {
     color: var(--clr-accent);
     font-size: 40px;
     margin-left: 10px;
 }
 
-.active {
-    background-color: red;
-}
+header button:focus {
+    outline: 0;
+} 
 
-.lang-alien {
-    position: absolute;
-    top: 0;
+.alien {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 100;
     left: 0;
-
-    display: flex;
-
+    top: 0;
+    background: var(--clr-dark);
+    color: var(--clr-light);
+    overflow-x: hidden;
+    transition: 0.5s;
+    right: 0;
+    bottom: 0;
 }
 
-.lang-alien-btn {
-    width: 120px;
-    padding-top: 1em;
-    background-color: transparent;
-    border: none;
+.alien-toggle {
+    padding: 0;
+    background: transparent;
+    border: 0;
     cursor: inherit;
-    display: inline-block;
+    position: absolute;
+    top: 1.5em;
+    z-index: 1000;
 }
 
-.lang-alien-btn:focus {
-    outline: none;
+.alien__list {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
-.lang-alien .animate__animated.animate__fadeInLeft {
-    --animate-duration: 2s;
+.alien__list a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: var(--clr-accent);
+    display: block;
+    transition: 0.3s;
 }
 
-.lang-alien .active {
-    /* debug */
-    border: 2px solid red;
+.alien__link {
+    cursor: inherit;
 }
 
-.lang-alien .hidden {
-    /* visibility: hidden; */
-
-    /* debug */
-    border: 2px dashed green;
+.alien-open {
+    width: 100% !important;
 }
 
 @media (min-width: 700px) {
-    .nav-toggle {
-        position: fixed;
-    }
-
-    .lang-alien {
+    .nav-toggle,
+    .alien-toggle {
         position: fixed;
     }
 }

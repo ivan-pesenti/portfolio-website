@@ -1,6 +1,6 @@
 const navToggle = document.querySelector('.nav-toggle');
 const navLinks = document.querySelectorAll('.nav__link');
-const icon = document.getElementById('iconToToggle');
+// const icon = document.getElementById('iconToToggle'); //TODO if not useful remove
 
 navToggle.addEventListener('click', () => {
     document.getElementById('iconToToggle').classList.toggle('fa-times-circle');

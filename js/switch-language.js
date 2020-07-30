@@ -21,49 +21,61 @@ const bodyServicesLast = document.querySelector('.services').getElementsByTagNam
 const titleSkills = document.querySelector('.section__title--skills');
 const subtitleSkills = document.querySelector('.section__subtitle--skills');
 
-// effect animation
-const defaultAlien = document.querySelector('.lang-alien').getElementsByTagName('a')[0];
-var languageAliens = document.querySelector('.lang-alien').getElementsByTagName('a');
+// effect to open/close language switch section
+const alienToggle = document.querySelector('.alien-toggle');
+const alienLinks = document.querySelectorAll('.alien__link');
 
-// const langEl = document.querySelector('.lang-wrap');
-// const link = langEl.querySelectorAll('a');
-
-defaultAlien.addEventListener('click', () => {
-    // document.querySelector('.lang-alien').getElementsByTagName('a')[1].classList.remove('hidden'); // TODO re-enable it when done
-
-    // loop htmlcollection and apply css class
-    for (let index = 1; index < languageAliens.length; index++) {
-        languageAliens[index].classList.add('animate__animated', 'animate__fadeInLeft');        
-    } 
+// manage open/close of navbar
+alienToggle.addEventListener('click', () => {
+    document.getElementById('alienToToggle').classList.toggle('fa-times-circle');
+    document.getElementById('alien-nav').classList.toggle('alien-open');
+    // document.getElementById("alien-nav").style.width = "100%"
 });
 
-// add click event to all of the aliens if it's clicked than it became active and the other became  
-for (let index = 0; index < languageAliens.length; index++) {
-    languageAliens[index].addEventListener('click', () => {
-        // remove active class on the previous selected item
-        document.getElementsByClassName('lang-alien-btn active')[0].classList.remove('active');
-
-        // apply hidden to other elements
-        document.getElementsByClassName('lang-alien-btn')
-
-        // add active class on current selected item
-        languageAliens[index].classList.add('active');
-    });
-    
-}
 
 // loop on link in order to add/remove class active from buttons
-// TODO reenable when done
-/*
-link.forEach (el => {
-    el.addEventListener('click', () => {
-        // remove class active from the current selected item
-        langEl.querySelector('.active').classList.remove('active');
-        // add the active class to the element just clicked
-        el.classList.add('active');
+
+alienLinks.forEach(al => {
+    al.addEventListener('click', () => {        
 
         // get selected language        
-        const languageSelected = el.getAttribute('language');
+        const languageSelected = al.getAttribute('language');
+
+        // set innerHtml of the element
+        // TODO re-enable when done
+        // homeNavbar.innerHTML = data[languageSelected].homeNavbar;
+        // aboutNavbar.innerHTML = data[languageSelected].aboutNavbar;
+        // servicesNavbar.innerHTML = data[languageSelected].servicesNavbar;
+        // skillsNavbar.innerHTML = data[languageSelected].skillsNavbar;
+        // titleIntro.innerHTML = data[languageSelected].titleIntro;
+        // titleAbout.innerHTML = data[languageSelected].titleAbout;
+        // subtitleAbout.innerHTML = data[languageSelected].subtitleAbout;
+        // bodyAboutFirst.innerHTML = data[languageSelected].bodyAboutFirst;
+        // bodyAboutSecond.innerHTML = data[languageSelected].bodyAboutSecond;
+        // bodyAboutFinal.innerHTML = data[languageSelected].bodyAboutLast;
+        // titleServices.innerHTML = data[languageSelected].titleServices;
+        // subtitleServicesFirst.innerHTML = data[languageSelected].subtitleServicesFirst;
+        // bodyServicesFirst.innerHTML = data[languageSelected].bodyServicesFirst;
+        // subtitleServicesSecond.innerHTML = data[languageSelected].subtitleServicesSecond;
+        // bodyServicesSecond.innerHTML = data[languageSelected].bodyServicesSecond;
+        // subtitleServicesLast.innerHTML = data[languageSelected].subtitleServicesLast;
+        // bodyServicesLast.innerHTML = data[languageSelected].bodyServicesLast;
+        // titleSkills.innerHTML = data[languageSelected].titleSkills;
+        // subtitleSkills.innerHTML = data[languageSelected].subtitleSkills;
+
+        // remove alien-open class in order to collapse it to the left 
+        document.getElementById('alien-nav').classList.remove('alien-open');
+        document.getElementById('alienToToggle').classList.toggle('fa-times-circle');
+        // document.getElementById("alien-nav").style.width = "0%"
+
+    });
+});
+
+/*for (let index = 0; index < alienLinks.length; index++) {
+    alienLinks[index].addEventListener('click', () => {        
+
+        // get selected language        
+        const languageSelected = al.getAttribute('language');
 
         // set innerHtml of the element
         homeNavbar.innerHTML = data[languageSelected].homeNavbar;
@@ -86,6 +98,9 @@ link.forEach (el => {
         titleSkills.innerHTML = data[languageSelected].titleSkills;
         subtitleSkills.innerHTML = data[languageSelected].subtitleSkills;
 
-    });
-});
-*/
+        // remove alien-open class in order to collapse it to the left 
+        document.body.classList.remove('alien-open');
+        document.getElementById('alienToToggle').classList.toggle('fa-times-circle');
+
+    });    
+}*/

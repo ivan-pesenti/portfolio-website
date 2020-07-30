@@ -29,16 +29,27 @@
                 <a href="#" language='italiano'>IT</a>
             </div> -->
 
-            <div class="lang-alien">
-                <a class="lang-alien-btn active">
-                    <img src="./img/language/roger_en.png" alt="">
-                </a>
-                <a class="lang-alien-btn hidden">
-                    <img src="./img/language/roger_it.png" alt="">
-                </a>
-                <a class="lang-alien-btn hidden">
-                    <img src="./img/language/roger_fr.png" alt="">
-                </a>
+            <!-- navbar to select the language of the website -->
+            <button class="alien-toggle" aria-label="language selection">
+                <span class="alien-language">
+                    <i id="alienToToggle" class="fas fa-globe"></i>
+                </span>
+            </button>
+            <div id="alien-nav" class="alien">
+                <div class="alien__list">
+                    <a href="#" class="alien__link" language='english'>
+                        <img src="./img/language/rsz_roger_en.png" alt="">
+                        <!-- <i class="fas fa-home"></i>&nbsp;EN -->
+                    </a>                 
+                    <a href="#" class="alien__link" language='italian'>
+                        <img src="./img/language/rsz_roger_it.png" alt="">
+                        <!-- <i class="fas fa-home"></i>&nbsp;IT -->
+                    </a>
+                    <a href="#" class="alien__link" language='french'>
+                        <img src="./img/language/rsz_roger_fr.png" alt="">
+                        <!-- <i class="fas fa-home"></i>&nbsp;FR -->
+                    </a>
+                </div>
             </div>
 
             <button class="nav-toggle" aria-label="toggle navigation">
