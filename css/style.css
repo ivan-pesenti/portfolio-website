@@ -355,7 +355,7 @@ header button:focus {
 
     .intro__container {
         width: 60%;
-        margin: 0 auto;
+        margin: 0 0 0 27%;
 
         /* Grid properties */
         display: grid;
