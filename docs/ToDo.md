@@ -2,8 +2,9 @@
 - fix media query (higher px)
 - fix ipad prod space under the title section
 - move a bit the header section to the right in order to make free space for the switch language feature
-- remove vertical scrollbar but allow user to scroll the page
 - fix the space in menu in Edge
+- make the effect on the burger menu equal to the one on language switch
+- fix space icons click in footer section
 
 # done
 
