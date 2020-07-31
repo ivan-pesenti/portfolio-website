@@ -62,10 +62,10 @@ body {
 body::-webkit-scrollbar {
     display: none;
   }
-  
+
 /* Hide scrollbar for IE, Edge and Firefox */
 body {
-    -ms-overflow-style: none;  
+    -ms-overflow-style: none;
     /* IE and Edge */
 }
 
@@ -78,7 +78,7 @@ strong {
     font-weight: var(--fw-bold);
 }
 
-section {    
+section {
     padding: 0.5em 2em 1.5em 2em;
 }
 
@@ -238,7 +238,7 @@ nav {
 .hamburger,
 .alien-language {
     display: block;
-    margin-left: 26px;    
+    margin-left: 26px;
 }
 
 #iconToToggle,
@@ -250,7 +250,7 @@ nav {
 
 header button:focus {
     outline: 0;
-} 
+}
 
 .alien {
     height: 100%;
@@ -328,7 +328,7 @@ header button:focus {
     height: auto;
 }
 
-.intro__container {    
+.intro__container {
     margin: 0 auto;
 
 }
@@ -360,7 +360,7 @@ header button:focus {
         /* Grid properties */
         display: grid;
         grid-template-columns: 25% 75%;
-        column-gap: 5em;         
+        column-gap: 5em;
         grid-template-rows: 50% 50%;
         grid-template-areas:
             "img title"
@@ -376,7 +376,7 @@ header button:focus {
         margin-bottom: 1em;
     }
 
-    .intro__img img {        
+    .intro__img img {
         width: 100%;
     }
 
@@ -388,7 +388,7 @@ header button:focus {
         text-align: unset;
     }
 
-    .section__subtitle--intro {        
+    .section__subtitle--intro {
         /* text-align: right;         */
         /* height: fit-content; */
         /* overflow: hidden; */
@@ -396,17 +396,17 @@ header button:focus {
         text-align: unset;
         /* Grid properties */
         grid-area: subtitle;
-    }    
+    }
 }
 
 /* My Services section */
 
 .my-services {
     background-color: var(--clr-dark);
-    background-image: url(../img/services/services-01.jpg); 
+    background-image: url(../img/services/services-01.jpg);
     /*use both image and color in case the image is not loaded, otherwise the text became not readable */
-    background-size: cover;    
-    background-blend-mode: multiply; /* make the background image darker and the text more readable*/    
+    background-size: cover;
+    background-blend-mode: multiply; /* make the background image darker and the text more readable*/
 
     color: var(--clr-light);
     text-align: center;
@@ -415,7 +415,7 @@ header button:focus {
 .section__title--services {
     /* color: var(--clr-accent);
     position: relative; */
-    
+
     color: var(--clr-light);
 }
 
@@ -476,7 +476,7 @@ header button:focus {
 
 .about-me {
     margin: 0 auto;
-        
+
     background-color: var(--clr-dark);
     color: var(--clr-light);
 }
@@ -504,7 +504,7 @@ header button:focus {
         width: 55%;
         margin: 0 auto;
 
-        /* Grid properties */        
+        /* Grid properties */
         display: grid;
         grid-template-columns: [first] 48% [second] 4% [third] 48% [fourth];
         grid-template-areas:
@@ -581,7 +581,7 @@ header button:focus {
 }
 
 .portfolio__stars {
-    
+
     /* Grid properties */
     grid-area: stars;
     align-self: center;
@@ -594,7 +594,7 @@ header button:focus {
 
 @media (min-width: 700px){
 
-    .portfolio {        
+    .portfolio {
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
 }
@@ -649,20 +649,23 @@ header button:focus {
     font-size: 30px;
 }
 
-.social-list__item a {
-    display: inline-block;
-    position: relative;
-    z-index: 1;
-    padding-left: 2em;
-    padding-top: 0;
-    margin-top: 0;
-    margin-left: -2em;
+@media (min-width: 700px){
+    .social-list__item a {
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        padding-left: 2em;
+        padding-top: 0;
+        margin-top: 0;
+        margin-left: -2em;
+    }
+    
+    .social-list__link {
+        padding: .5em;
+    
+    }
 }
 
-.social-list__link {
-    padding: .5em;     
-    
-}
 
 /* Individual portfolio item styles */
 

@@ -1,8 +1,6 @@
 # important things todo
 - fix media query (higher px)
 - fix ipad prod space under the title section
-- make the effect on the burger menu equal to the one on language switch
-- fix space icons click in footer section
 
 # done
 
