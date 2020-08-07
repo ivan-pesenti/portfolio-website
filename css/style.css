@@ -488,13 +488,7 @@ section .star {
 
 /* My Services section */
 
-.my-services {
-    /* background-image: url(../img/services/services-01.jpg); */
-    /*use both image and color in case the image is not loaded, otherwise the text became not readable */
-    /* background-size: cover; */
-    /* background-blend-mode: multiply;  */
-    /* make the background image darker and the text more readable*/
-    
+.my-services {    
     color: var(--clr-light);
     text-align: center;
     
