@@ -89,7 +89,7 @@ section {
 
 @media (min-width: 700px) {
     section  {
-        padding: 3em 2em;
+        padding: 5.5em 2em 1.5em 2em;
     }
 }
 
@@ -489,14 +489,24 @@ section .star {
 /* My Services section */
 
 .my-services {
-    background-color: var(--clr-dark);
-    background-image: url(../img/services/services-01.jpg);
+    /* background-image: url(../img/services/services-01.jpg); */
     /*use both image and color in case the image is not loaded, otherwise the text became not readable */
-    background-size: cover;
-    background-blend-mode: multiply; /* make the background image darker and the text more readable*/
-
+    /* background-size: cover; */
+    /* background-blend-mode: multiply;  */
+    /* make the background image darker and the text more readable*/
+    
     color: var(--clr-light);
     text-align: center;
+    
+    background: 
+        url(../img/services/services-01.jpg) no-repeat center center;
+    background-color: var(--clr-dark);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-blend-mode: multiply;
+
 }
 
 .section__title--services {

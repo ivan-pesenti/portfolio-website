@@ -7,7 +7,7 @@ export var data = {
         "skillsNavbar": "<i class=\"fas fa-laptop-code\"></i>&nbsp;Tech Skills",
         "titleIntro": "Hi, I am <strong>Ivan Pesenti</strong>",
         "titleAbout": "Who I am",
-        "subtitleAbout": "Developer <i class=\"fas fa-code\"></i>, footballer <i class=\"fas fa-futbol\"></i>, biker <i class=\"fas fa-biking\"></i> .&nbsp;.&nbsp;. and much more!!!",
+        "subtitleAbout": "developer <i class=\"fas fa-code\"></i>, footballer <i class=\"fas fa-futbol\"></i>, biker <i class=\"fas fa-biking\"></i> .&nbsp;.&nbsp;. and much more!!!",
         "bodyAboutFirst": "I'm 24 years old and I live in Bergamo (near Milano, north-Italy) with my family. Through this website portfolio I\'d like to share with you some info about me. Let me introduce myself...",
         "bodyAboutSecond": "I've got a lot of hobbies and I practice a lot of different sports (even if the results may not be those hoped 😂).<br>I play football 5 as a striker and I joined two teams. In my free time I like to run, ride a bicycle, ride a bike, swim and take walks in the mountains (there are a lot of amazing mountains near to me). In winter I'd like to ski.",
         "bodyAboutLast" : "Personally, I like many different things. First I'm a supporter of AC Milan <img src=\"./img/intro/ac-milan-logo-svg-vector.svg\" alt=\"\">. I love food in general, especially pizza 🍕, sushi 🍣 and hamburger 🍔 (all healthy things as you can see 😬). I love also anime, especially Dragon Ball, Naruto, One Piece and Holly and Benjy.",
