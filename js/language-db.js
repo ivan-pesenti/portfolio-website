@@ -30,7 +30,7 @@ export var data = {
         "skillsNavbar": "<i class=\"fas fa-laptop-code\"></i>&nbsp;Competenze",
         "titleIntro": "Ciao, mi chiamo <strong>Ivan Pesenti</strong>",
         "titleAbout": "Chi sono",
-        "subtitleAbout": "Sviluppatore <i class=\"fas fa-code\"></i>, calciatore <i class=\"fas fa-futbol\"></i>, motociclista <i class=\"fas fa-biking\"></i> .&nbsp;.&nbsp;. e molto altro!!!",
+        "subtitleAbout": "sviluppatore <i class=\"fas fa-code\"></i>, calciatore <i class=\"fas fa-futbol\"></i>, motociclista <i class=\"fas fa-biking\"></i> .&nbsp;.&nbsp;. e molto altro!!!",
         "bodyAboutFirst": "Ho 24 anni e vivo a Bergamo (vicino a Milano, nord-Italia) con la mia famiglia. Attraverso questo sito vetrina vorrei condividere con te qualche informazione che mi riguarda. Permettimi di presentarmi...",
         "bodyAboutSecond": "Ho svariati hobby e pratico molti sport differenti (anche se i risultati non sono quelli sperati 😂).<br>Gioco a calcio 5 come attaccante e faccio parte di due squadre. Nel mio tempo libero mi piace andare a correre, andare in bici o in moto, nuotare e fare passeggiate in montagna (ci sono molte montagne vicino a me con dei bei paesaggi). Nella stagione invernale mi piace sciare." ,
         "bodyAboutLast" : "Personalmente, adoro molte cose. Innanzitutto sono un tifoso dell'AC Milan <img src=\"./img/intro/ac-milan-logo-svg-vector.svg\" alt=\"\">. Adoro il cibo in generale, in particolar modo pizza 🍕, sushi 🍣 e hamburger 🍔 (tutte cose salutari come puoi vedere 😬). Adoro gli anime, specialmente Dragon Ball, Naruto, One Piece e Holly e Benjy.",
