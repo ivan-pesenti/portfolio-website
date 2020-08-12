@@ -170,7 +170,7 @@ header a:focus {
     max-width: 150px;
 }
 
-nav {
+.nav {
     position: fixed;
     background: var(--clr-dark);
     color: var(--clr-light);
@@ -182,7 +182,6 @@ nav {
 
     transform: translateX(100%);
     transition: 0.3s;
-
 }
 
 .nav__list {
@@ -204,16 +203,13 @@ nav {
     color: var(--clr-accent);
 }
 
-.nav__link {
+.nav__link,
+.alien__link {
     color: inherit;
     font-weight: var(--fw-bold);
     font-size: var(--fs-h2);
     text-decoration: none;
     cursor: inherit;
-}
-
-.alien__link {
-    font-size: var(--fs-h2);
 }
 
 .nav__link:hover {
@@ -253,18 +249,17 @@ header button:focus {
 }
 
 .alien {
-    height: 100%;
-    width: 0;
     position: fixed;
-    z-index: 100;
-    left: 0;
-    top: 0;
     background: var(--clr-dark);
     color: var(--clr-light);
-    overflow-x: hidden;
-    transition: 0.3s;
-    right: 0;
+    top: 0;
     bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    
+    transform: translateX(-100%);    
+    transition: 0.3s;
 }
 
 .alien-toggle {
@@ -278,6 +273,7 @@ header button:focus {
 }
 
 .alien__list {
+    list-style: none;
     width: 100%;
     height: 70%;
     margin-top: 30%;
@@ -296,17 +292,13 @@ header button:focus {
     transition: 0.3s;        
 }
 
-.alien__link {
-    cursor: inherit;
-}
-
-.alien-open {
-    width: 100% !important;
+.alien-open .alien {
+    transform: translateX(0);
 }
 
 @media (min-width: 700px) {
     .alien,
-    nav {
+    .nav {
         transition: 0.5s;
     }
 
@@ -344,9 +336,6 @@ header button:focus {
     overflow: hidden;
     position: relative;
     width: 100%;
-
-    /* debug */
-    /* border: 3px dotted red; */
 }
 
 section .star {
@@ -355,14 +344,9 @@ section .star {
     left: 0;
     width: 100%;
     height: 100%;
-    /* bottom: calc(100% - 433px); */
-    /* TODO replace with jquery library */
 
     animation: animate 8s ease-in-out infinite,
                 backgroundmove 16s linear infinite;
-
-    /* debug */
-    /* border: 0.5px solid green; */
 }
 
 .intro .star.star1 {

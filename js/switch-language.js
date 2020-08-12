@@ -28,7 +28,7 @@ const alienLinks = document.querySelectorAll('.alien__link');
 // manage open/close of navbar
 alienToggle.addEventListener('click', () => {
     document.getElementById('alienToToggle').classList.toggle('fa-times-circle');
-    document.getElementById('alien-nav').classList.toggle('alien-open');
+    document.body.classList.toggle('alien-open');
 });
 
 
@@ -62,7 +62,7 @@ alienLinks.forEach(al => {
         subtitleSkills.innerHTML = data[languageSelected].subtitleSkills;
 
         // remove alien-open class in order to collapse it to the left 
-        document.getElementById('alien-nav').classList.remove('alien-open');
+        document.body.classList.remove('alien-open');
         document.getElementById('alienToToggle').classList.toggle('fa-times-circle');
 
     });
