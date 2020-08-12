@@ -278,22 +278,22 @@ header button:focus {
 }
 
 .alien__list {
+    width: 100%;
+    height: 70%;
+    margin-top: 30%;
+
     display: flex;
-    height: 100%;
-    flex-direction: column;
+    flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
-    margin: 0;
-    padding: 0;
 }
 
-.alien__list a {
-    padding: 8px;
+.alien__list a {    
     text-decoration: none;
     font-size: 36px;
     color: var(--clr-accent);
     display: block;
-    transition: 0.3s;
+    transition: 0.3s;        
 }
 
 .alien__link {
@@ -308,6 +308,21 @@ header button:focus {
     .nav-toggle,
     .alien-toggle {
         position: fixed;
+    }
+
+    .alien__list{
+        display: flex;
+        height: 100%;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .alien__list a {
+        padding: 8px;
     }
 }
 

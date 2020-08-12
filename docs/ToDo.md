@@ -5,8 +5,11 @@
 # notes 
 
 # to implement
+- not allow scroll the page when any navbar is opened
+- favicon in SERP page
+- make the site the first result in SERP
 
 # nice to have
+- make stars behind my face in intro section
 - index the web site on bing search engine
-- display alien more gracefully in wider screen
 - create a second theme to switch between
