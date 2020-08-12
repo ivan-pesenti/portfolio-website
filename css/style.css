@@ -262,7 +262,7 @@ header button:focus {
     background: var(--clr-dark);
     color: var(--clr-light);
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: 0.3s;
     right: 0;
     bottom: 0;
 }
@@ -305,6 +305,10 @@ header button:focus {
 }
 
 @media (min-width: 700px) {
+    .alien {
+        transition: 0.5s;
+    }
+
     .nav-toggle,
     .alien-toggle {
         position: fixed;
