@@ -181,7 +181,7 @@ nav {
     z-index: 100;
 
     transform: translateX(100%);
-    transition: 0.5s;
+    transition: 0.3s;
 
 }
 
@@ -305,7 +305,8 @@ header button:focus {
 }
 
 @media (min-width: 700px) {
-    .alien {
+    .alien,
+    nav {
         transition: 0.5s;
     }
 
