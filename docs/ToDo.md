@@ -6,7 +6,6 @@
 
 # to implement
 - increase space between alien on small devices
-- not allow scroll the page when any navbar is opened
 - favicon in SERP page
 - make the site the first result in SERP
 

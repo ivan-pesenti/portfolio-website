@@ -231,6 +231,11 @@ header a:focus {
     transform: translateX(0);
 }
 
+.nav-open,
+.alien-open {
+    overflow: hidden;
+}
+
 .hamburger,
 .alien-language {
     display: block;
