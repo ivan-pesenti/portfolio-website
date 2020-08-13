@@ -49,7 +49,7 @@ export var data = {
         "homeNavbar": "<i class=\"fas fa-home\"></i>&nbsp;Home",
         "aboutNavbar": "<i class=\"far fa-address-card\"></i>&nbsp;Über mich",
         "servicesNavbar": "<i class=\"fas fa-briefcase\"></i>&nbsp;Was ich mache",
-        "skillsNavbar": "<i class=\"fas fa-laptop-code\"></i>&nbsp;Technische Fähigkeiten",
+        "skillsNavbar": "<i class=\"fas fa-laptop-code\"></i>&nbsp;Computerkenntnisse",
         "titleIntro": "Hallo, ich bin Ivan Pesenti",
         "titleAbout": "Wer ich bin",
         "subtitleAbout": "entwickler <i class=\"fas fa-code\"></i>, fußballspieler <i class=\"fas fa-futbol\"></i>, motorradfahrer <i class=\"fas fa-biking\"></i> .&nbsp;.&nbsp;. und noch mehr!",
