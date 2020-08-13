@@ -10,6 +10,5 @@
 - increase space between alien on small devices
 
 # nice to have
-- make stars behind my face in intro section
 - index the web site on bing search engine
 - create a second theme to switch between
