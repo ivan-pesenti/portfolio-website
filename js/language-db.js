@@ -43,5 +43,27 @@ export var data = {
         "bodyServicesLast": "Nel mio tempo libero, qualche volta do ripetizioni di informatica. Spesso aiuto le persone (solitamente studenti) a scrivere programmi e a fare i loro compiti. Secondo me, aiutare qualcun altro su materie che riguardano il mio lavoro è una fantastica opportunità per lui, visto che può guadagnare esperienza e acquisire i miei metodi e anche per me in quanto posso perfezionare le tecnologie e i concetti.",
         "titleSkills": "Competenze informatiche",
         "subtitleSkills": "Forse posso aiutarti in qualcosa tra questi:"
+    },
+    "german":
+    {
+        "homeNavbar": "<i class=\"fas fa-home\"></i>&nbsp;Home",
+        "aboutNavbar": "<i class=\"far fa-address-card\"></i>&nbsp;Über mich",
+        "servicesNavbar": "<i class=\"fas fa-briefcase\"></i>&nbsp;Was ich mache",
+        "skillsNavbar": "<i class=\"fas fa-laptop-code\"></i>&nbsp;Technische Fähigkeiten",
+        "titleIntro": "Hallo, ich bin Ivan Pesenti",
+        "titleAbout": "Wer ich bin",
+        "subtitleAbout": "entwickler <i class=\"fas fa-code\"></i>, fußballspieler <i class=\"fas fa-futbol\"></i>, motorradfahrer <i class=\"fas fa-biking\"></i> .&nbsp;.&nbsp;. und noch mehr!",
+        "bodyAboutFirst": "Ich bin 24 Jahre alt und ich wohne mit meiner Familie in Bergamo (in Norditalien, in der Nähe von Mailand). Durch diese Internetseite möchte ich mit dir einige Informationen über mich mitteilen. Lass mich, mich vorstellen...",
+        "bodyAboutSecond": "Ich habe viele Hobbys und ich treibe verschiedene Sportarten (obwohl die Ergebnisse nicht die Erhofften sind 😂). Ich spiele Futsal als Stürmer und ich bin Teil von zwei Mannschaften. In meiner Freizeit laufe ich gern, fahre ich gern mit dem Fahrrad oder mit dem Motorrad, schwimme ich gern und gehe ich gern in den Bergen spazieren (in meiner Nähe gibt es viele Berge mit wunderschönen Landschaften). Im Winter fahre ich gern Ski.",
+        "bodyAboutLast": "Meinerseits gibt es viele Dinge, die ich mag. Zuerst bin ich ein AC Milan-Fan <img src=\"./img/intro/ac-milan-logo-svg-vector.svg\" alt=\"\">. Ich liebe essen, insbesondere Pizza 🍕, Sushi 🍣 und Hamburger 🍔 (alle gesunden Dinge, wie du sehen kannst 😬). Ich mag auch Animes, insbesondere Dragon Ball, Naruto, One Piece, Holly und Benji.",
+        "titleServices": "Was ich mache",
+        "subtitleServicesFirst": "Entwicklung",
+        "bodyServicesFirst": "Ab 2014 arbeite Ich als Softwareentwickler. Mein hauptsächlicher Sachverstand ist die Durchführung von Web-Apis, durch die Verwendung von verschiedenen Programmiersprachen und Plattformen. Ich weiß auch ein wenig über die Benutzeroberfläche der Webseiten. Ich kann auch die Datenbanken verwalten und über verschiedene Programmiersprachen und Datenbanken-Plattformen programmieren. Ich lerne auch neue Technologie und Programmiersprachen.",
+        "subtitleServicesSecond": "Zusammenarbeit",
+        "bodyServicesSecond": "Ich bin bereit mit allem, die in ihrem Team mir wollen, zusammenzuarbeiten. Ich kann über den Code zur Back-End-Seite (wo ich mein Bestes geben kann) und über den Code zur Front-End-Seite. Wenn Sie einen interessanten Vorschlag haben oder Sie brauchen weitere Informationen, bitte kontaktieren Sie mich durch die Referenzen da unten.",
+        "subtitleServicesLast": "Ausbildung",
+        "bodyServicesLast": "In meiner Freizeit gebe ich manchmal Informatik-Nachhilfe. Oft helfe ich die Leute (vor allem Schüler), Computerprogramme zu schreiben und ihre Hausaufgaben zu machen. Ich denke, dass es eine großartige Chance ist, die Leute über Fächer bezüglich meiner Arbeit helfen.",
+        "titleSkills": "Computerkenntnisse",
+        "subtitleSkills": "Vielleicht kann ich Ihnen in irgendetwas zwischen diesen helfen:"
     }
 };
