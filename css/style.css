@@ -44,18 +44,12 @@ html {
     /* overflow: scroll; */
 }
 
-/* ::-webkit-scrollbar {
-    width: 0px;
-    background: transparent;
-} */
-
 body {
     background: var(--clr-light);
     color: var(--clr-dark);
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
     line-height: 1.6;
-    cursor: url('../img/navbar/rocket.cur'), pointer;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -101,7 +95,7 @@ section {
     background: var(--clr-accent);
     color: var(--clr-dark);
     text-decoration: none;
-    cursor: inherit;
+    cursor: pointer;
     font-size: .8rem;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -209,7 +203,7 @@ header a:focus {
     font-weight: var(--fw-bold);
     font-size: var(--fs-h2);
     text-decoration: none;
-    cursor: inherit;
+    cursor: pointer;
 }
 
 .nav__link:hover {
@@ -220,7 +214,7 @@ header a:focus {
     padding: 0;
     background: transparent;
     border: 0;
-    cursor: inherit;
+    cursor: pointer;
     position: absolute;
     right: 2em;
     top: 1.5em;
@@ -246,7 +240,6 @@ header a:focus {
 #alienToToggle {
     color: var(--clr-accent);
     font-size: 40px;
-    margin-left: 10px;
 }
 
 header button:focus {
@@ -271,7 +264,7 @@ header button:focus {
     padding: 0;
     background: transparent;
     border: 0;
-    cursor: inherit;
+    cursor: pointer;
     position: absolute;
     top: 1.5em;
     z-index: 1000;
@@ -730,7 +723,7 @@ section .star {
 
 .footer__link,
 .social-list__link {
-    cursor: inherit;
+    cursor: pointer;
 }
 
 .social-list {
@@ -758,7 +751,6 @@ section .star {
         padding-left: 2em;
         padding-top: 0;
         margin-top: 0;
-        margin-left: -2em;
     }
     
     .social-list__link {
