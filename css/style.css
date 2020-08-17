@@ -686,6 +686,10 @@ section .star {
     z-index: 2;
 }
 
+.portfolio__item:hover {
+    cursor: pointer;
+}
+
 @media (min-width: 700px){
 
     .portfolio {
@@ -840,4 +844,8 @@ section .star {
     -webkit-transform: scale(1.4, 3.2);
     -moz-transform: scale(1.4, 3.2);
     transform: scale(1.4, 3.2)
+  }
+
+  @media (min-width: 700px){
+
   }
