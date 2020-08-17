@@ -12,9 +12,9 @@ var scrollHeightrocketmeluncur = parseInt(document.body.getBoundingClientRect().
 var basewrocketmeluncur = parseInt(ftrocketmeluncur.clientWidth);
 var swrocketmeluncur = scrolltoprocketmeluncur.clientWidth;
 if (basewrocketmeluncur < 1000) {
-var leftrocketmeluncur = parseInt(fetchOffset(ftrocketmeluncur)['left']);
-leftrocketmeluncur = leftrocketmeluncur < swrocketmeluncur ? leftrocketmeluncur * 2 - swrocketmeluncur : leftrocketmeluncur;
-scrolltoprocketmeluncur.style.left = ( basewrocketmeluncur + leftrocketmeluncur ) + 'px';
+    var leftrocketmeluncur = parseInt(ftrocketmeluncur.offsetLeft);
+    leftrocketmeluncur = leftrocketmeluncur < swrocketmeluncur ? leftrocketmeluncur * 2 - swrocketmeluncur : leftrocketmeluncur;
+    scrolltoprocketmeluncur.style.left = ( basewrocketmeluncur + leftrocketmeluncur ) + 'px';
 } else {
 scrolltoprocketmeluncur.style.left = 'auto';
 scrolltoprocketmeluncur.style.right = '1.75em';
