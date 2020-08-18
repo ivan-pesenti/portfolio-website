@@ -327,7 +327,7 @@ header button:focus {
 
 .intro {
     background-color: var(--clr-dark);
-    background-image: url(../img/intro/cover.jpg);
+    background-image: url(../img/intro/cover.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
