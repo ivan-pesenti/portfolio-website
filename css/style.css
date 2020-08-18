@@ -496,7 +496,7 @@ section .star {
     text-align: center;
     
     background: 
-        url(../img/services/services-01.jpg) no-repeat center center;
+        url(../img/services/services-01.webp) no-repeat center center;
     background-color: var(--clr-dark);
     -webkit-background-size: cover;
     -moz-background-size: cover;
