@@ -350,42 +350,42 @@ section .star {
 
 .intro .star.star1 {
     animation-delay: 0s;
-    background: url(../img/intro/background/star1.png);
+    background: url(../img/intro/background/star1.webp);
 }
 
 .intro .star.star2 {
     animation-delay: -1s;
-    background: url(../img/intro/background/star2.png);
+    background: url(../img/intro/background/star2.webp);
 }
 
 .intro .star.star3 {
     animation-delay: -2s;
-    background: url(../img/intro/background/star3.png);
+    background: url(../img/intro/background/star3.webp);
 }
 
 .intro .star.star4 {
     animation-delay: -3s;
-    background: url(../img/intro/background/star4.png);
+    background: url(../img/intro/background/star4.webp);
 }
 
 .intro .star.star5 {
     animation-delay: -4s;
-    background: url(../img/intro/background/star5.png);
+    background: url(../img/intro/background/star5.webp);
 }
 
 .intro .star.star6 {
     animation-delay: -5s;
-    background: url(../img/intro/background/star6.png);
+    background: url(../img/intro/background/star6.webp);
 }
 
 .intro .star.star7 {
     animation-delay: -6s;
-    background: url(../img/intro/background/star7.png);
+    background: url(../img/intro/background/star7.webp);
 }
 
 .intro .star.star8 {
     animation-delay: -7s;
-    background: url(../img/intro/background/star8.png);
+    background: url(../img/intro/background/star8.webp);
 }
 
 @keyframes animate {
@@ -424,16 +424,11 @@ section .star {
 }
 
 .section__title--intro {
-    /* background-color: yellowgreen; */
-
     text-align: center;
 }
 
 
 .section__subtitle--intro {
-    /* color: var(--clr-light); */
-    /* background-color: orange; */
-
     text-align: center;
 }
 
@@ -479,11 +474,9 @@ section .star {
     }
 
     .section__subtitle--intro {
-        /* text-align: right;         */
-        /* height: fit-content; */
-        /* overflow: hidden; */
         margin-top: 2%;
         text-align: unset;
+
         /* Grid properties */
         grid-area: subtitle;
     }
@@ -507,9 +500,6 @@ section .star {
 }
 
 .section__title--services {
-    /* color: var(--clr-accent);
-    position: relative; */
-
     color: var(--clr-light);
 }
 
