@@ -778,7 +778,7 @@ section .star {
     width: 26px;
     height: 48px;
     right: 25px;
-    background: url(../img/backtotop/rocket.png) no-repeat 50% 0;
+    background: url(../img/backtotop/rocket.webp) no-repeat 50% 0;
     opacity: 0;
     -webkit-transition: visibility .6s cubic-bezier(0.6, 0.04, 0.98, 0.335), opacity .6s cubic-bezier(0.6, 0.04, 0.98, 0.335), -webkit-transform .6s cubic-bezier(0.6, 0.04, 0.98, 0.335);
     -moz-transition: visibility .6s cubic-bezier(0.6, 0.04, 0.98, 0.335), opacity .6s cubic-bezier(0.6, 0.04, 0.98, 0.335), -moz-transform .6s cubic-bezier(0.6, 0.04, 0.98, 0.335);
@@ -793,7 +793,7 @@ section .star {
     display: block;
     margin-top: 48px;
     height: 14px;    
-    background: url(../img/backtotop/rocket.png) no-repeat 50% -48px;
+    background: url(../img/backtotop/rocket.webp) no-repeat 50% -48px;
     opacity: .5;
     -webkit-transition: -webkit-transform .2s;
     -moz-transition: -moz-transform .2s;
