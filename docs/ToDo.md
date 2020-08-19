@@ -5,6 +5,8 @@
 # notes 
 
 # to implement 
+- add security headers to the website
+- remove css styles on click on mobile
 - in what i do section create css cards for the subsection
 - favicon in SERP page
 - make the website discoverable only with "ivan pesenti" seach words
