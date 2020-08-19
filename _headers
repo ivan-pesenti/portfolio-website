@@ -1,3 +1,8 @@
 # headers
 /index.html
-    X-Frame-Options: SAMEORIGIN
+    X-Frame-Options: DENY
+    Content-Securiry-Policy: default-src 'self';script-src 'self';style-src 'self';img-src 'self';font-src 'self';form-action 'self';frame-ancestors 'self';block-all-mixed-content
+    X-Content-Type-Options: nosniff
+    X-XSS-Protection: 1; mode=block
+    Referrer-Policy: no-referrer-when-downgrade
+    Feature-Policy: accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'
