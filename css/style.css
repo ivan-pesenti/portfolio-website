@@ -331,6 +331,7 @@ header button:focus {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    background-attachment: fixed;
 
     overflow: hidden;
     position: relative;
@@ -482,19 +483,64 @@ section .star {
     }
 }
 
+/* Media query for loading smaller images */
+@media only screen and (max-width: 640px){
+    .intro {
+        background-image: url(../img/intro/smallSize/cover.webp);
+    }
+
+    .intro .star.star1 {
+        background: url(../img/intro/smallSize/background/star1.webp);
+    }
+    
+    .intro .star.star2 {
+        background: url(../img/intro/smallSize/background/star2.webp);
+    }
+    
+    .intro .star.star3 {
+        background: url(../img/intro/smallSize/background/star3.webp);
+    }
+    
+    .intro .star.star4 {
+        background: url(../img/intro/smallSize/background/star4.webp);
+    }
+    
+    .intro .star.star5 {
+        background: url(../img/intro/smallSize/background/star5.webp);
+    }
+    
+    .intro .star.star6 {
+        background: url(../img/intro/smallSize/background/star6.webp);
+    }
+    
+    .intro .star.star7 {
+        background: url(../img/intro/smallSize/background/star7.webp);
+    }
+    
+    .intro .star.star8 {
+        background: url(../img/intro/smallSize/background/star8.webp);
+    }
+
+    .my-services {
+        background-image: url(../img/services/smallSize/services-01.webp);
+    }
+}
+
 /* My Services section */
 
 .my-services {    
     color: var(--clr-light);
     text-align: center;
     
-    background: 
-        url(../img/services/services-01.webp) no-repeat center center;
+    background-image: url(../img/services/services-01.webp);
     background-color: var(--clr-dark);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
     background-blend-mode: multiply;
 
 }
