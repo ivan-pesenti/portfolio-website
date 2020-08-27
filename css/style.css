@@ -548,66 +548,82 @@ section .star {
     }
 
     .webp .intro .star.star1 {
+        animation-delay: 0s;
         background: url(../img/intro/smallSize/background/star1.webp);
     }
 
     .no-webp .intro .star.star1 {
+        animation-delay: 0s;
         background: url(../img/intro/smallSize/background/star1.png);
     }
     
     .webp .intro .star.star2 {
+        animation-delay: -1s;
         background: url(../img/intro/smallSize/background/star2.webp);
     }
 
     .no-webp .intro .star.star2 {
+        animation-delay: -1s;
         background: url(../img/intro/smallSize/background/star2.png);
     }
     
     .webp .intro .star.star3 {
+        animation-delay: -2s;
         background: url(../img/intro/smallSize/background/star3.webp);
     }
 
     .no-webp .intro .star.star3 {
+        animation-delay: -2s;
         background: url(../img/intro/smallSize/background/star3.png);
     }
     
     .webp .intro .star.star4 {
+        animation-delay: -3s;
         background: url(../img/intro/smallSize/background/star4.webp);
     }
 
     .no-webp .intro .star.star4 {
+        animation-delay: -3s;
         background: url(../img/intro/smallSize/background/star4.png);
     }
     
     .webp .intro .star.star5 {
+        animation-delay: -4s;
         background: url(../img/intro/smallSize/background/star5.webp);
     }
 
     .no-webp .intro .star.star5 {
+        animation-delay: -4s;
         background: url(../img/intro/smallSize/background/star5.png);
     }
     
     .webp .intro .star.star6 {
+        animation-delay: -5s;
         background: url(../img/intro/smallSize/background/star6.webp);
     }
 
     .no-webp .intro .star.star6 {
+        animation-delay: -5s;
         background: url(../img/intro/smallSize/background/star6.png);
     }
     
     .webp .intro .star.star7 {
+        animation-delay: -6s;
         background: url(../img/intro/smallSize/background/star7.webp);
     }
 
     .no-webp .intro .star.star7 {
+        animation-delay: -6s;
         background: url(../img/intro/smallSize/background/star7.png);
     }
     
     .webp .intro .star.star8 {
+        animation-delay: -7s;
         background: url(../img/intro/smallSize/background/star8.webp);
     }
 
     .no-webp .intro .star.star8 {
+        animation-delay: -7s;
         background: url(../img/intro/smallSize/background/star8.png);
     }
 
