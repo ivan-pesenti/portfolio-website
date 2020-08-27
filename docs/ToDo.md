@@ -5,6 +5,7 @@
 # notes 
 
 # to implement 
+- make the website fast also on small screens
 - add security headers to the website
 - remove css styles on click on mobile
 - in what i do section create css cards for the subsection
