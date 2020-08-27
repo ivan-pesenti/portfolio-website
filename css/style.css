@@ -330,7 +330,7 @@ header button:focus {
     background-image: url(../img/intro/cover.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
 
     overflow: hidden;
     position: relative;
