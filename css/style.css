@@ -628,10 +628,12 @@ section .star {
     }
 
     .webp .my-services {
+        background-attachment: scroll;
         background-image: url(../img/services/smallSize/services-01.webp);
     }
 
     .no-webp .my-services {
+        background-attachment: scroll;
         background-image: url(../img/services/smallSize/services-01.png);
     }
 }
