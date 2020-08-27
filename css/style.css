@@ -326,9 +326,22 @@ header button:focus {
 
 /* Intro section */
 
-.intro {
+.webp .intro {
     background-color: var(--clr-dark);
     background-image: url(../img/intro/cover.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.no-webp .intro {
+    background-color: var(--clr-dark);
+    background-image: url(../img/intro/cover.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -350,44 +363,84 @@ section .star {
                 backgroundmove 16s linear infinite;
 }
 
-.intro .star.star1 {
+.webp .intro .star.star1 {
     animation-delay: 0s;
     background: url(../img/intro/background/star1.webp);
 }
 
-.intro .star.star2 {
+.no-webp .intro .star.star1 {
+    animation-delay: 0s;
+    background: url(../img/intro/background/star1.png);
+}
+
+.webp .intro .star.star2 {
     animation-delay: -1s;
     background: url(../img/intro/background/star2.webp);
 }
 
-.intro .star.star3 {
+.no-webp .intro .star.star2 {
+    animation-delay: -1s;
+    background: url(../img/intro/background/star2.png);
+}
+
+.webp .intro .star.star3 {
     animation-delay: -2s;
     background: url(../img/intro/background/star3.webp);
 }
 
-.intro .star.star4 {
+.no-webp .intro .star.star3 {
+    animation-delay: -2s;
+    background: url(../img/intro/background/star3.png);
+}
+
+.webp .intro .star.star4 {
     animation-delay: -3s;
     background: url(../img/intro/background/star4.webp);
 }
 
-.intro .star.star5 {
+.no-webp .intro .star.star4 {
+    animation-delay: -3s;
+    background: url(../img/intro/background/star4.png);
+}
+
+.webp .intro .star.star5 {
     animation-delay: -4s;
     background: url(../img/intro/background/star5.webp);
 }
 
-.intro .star.star6 {
+.no-webp .intro .star.star5 {
+    animation-delay: -4s;
+    background: url(../img/intro/background/star5.png);
+}
+
+.webp .intro .star.star6 {
     animation-delay: -5s;
     background: url(../img/intro/background/star6.webp);
 }
 
-.intro .star.star7 {
+.no-webp .intro .star.star6 {
+    animation-delay: -5s;
+    background: url(../img/intro/background/star6.png);
+}
+
+.webp .intro .star.star7 {
     animation-delay: -6s;
     background: url(../img/intro/background/star7.webp);
 }
 
-.intro .star.star8 {
+.no-webp .intro .star.star7 {
+    animation-delay: -6s;
+    background: url(../img/intro/background/star7.png);
+}
+
+.webp .intro .star.star8 {
     animation-delay: -7s;
     background: url(../img/intro/background/star8.webp);
+}
+
+.no-webp .intro .star.star8 {
+    animation-delay: -7s;
+    background: url(../img/intro/background/star8.png);
 }
 
 @keyframes animate {
@@ -486,40 +539,76 @@ section .star {
 
 /* Media query for loading smaller images */
 @media only screen and (max-width: 640px){
-    .intro {
+    .webp .intro {
         background-image: url(../img/intro/smallSize/cover.webp);
     }
 
-    .intro .star.star1 {
+    .no-webp .intro {
+        background-image: url(../img/intro/smallSize/cover.png);
+    }
+
+    .webp .intro .star.star1 {
         background: url(../img/intro/smallSize/background/star1.webp);
     }
+
+    .no-webp .intro .star.star1 {
+        background: url(../img/intro/smallSize/background/star1.png);
+    }
     
-    .intro .star.star2 {
+    .webp .intro .star.star2 {
         background: url(../img/intro/smallSize/background/star2.webp);
     }
+
+    .no-webp .intro .star.star2 {
+        background: url(../img/intro/smallSize/background/star2.png);
+    }
     
-    .intro .star.star3 {
+    .webp .intro .star.star3 {
         background: url(../img/intro/smallSize/background/star3.webp);
     }
+
+    .no-webp .intro .star.star3 {
+        background: url(../img/intro/smallSize/background/star3.png);
+    }
     
-    .intro .star.star4 {
+    .webp .intro .star.star4 {
         background: url(../img/intro/smallSize/background/star4.webp);
     }
+
+    .no-webp .intro .star.star4 {
+        background: url(../img/intro/smallSize/background/star4.png);
+    }
     
-    .intro .star.star5 {
+    .webp .intro .star.star5 {
         background: url(../img/intro/smallSize/background/star5.webp);
     }
+
+    .no-webp .intro .star.star5 {
+        background: url(../img/intro/smallSize/background/star5.png);
+    }
     
-    .intro .star.star6 {
+    .webp .intro .star.star6 {
         background: url(../img/intro/smallSize/background/star6.webp);
     }
-    
-    .intro .star.star7 {
-        background: url(../img/intro/smallSize/background/star7.webp);
+
+    .no-webp .intro .star.star6 {
+        background: url(../img/intro/smallSize/background/star6.png);
     }
     
-    .intro .star.star8 {
+    .webp .intro .star.star7 {
+        background: url(../img/intro/smallSize/background/star7.webp);
+    }
+
+    .no-webp .intro .star.star7 {
+        background: url(../img/intro/smallSize/background/star7.png);
+    }
+    
+    .webp .intro .star.star8 {
         background: url(../img/intro/smallSize/background/star8.webp);
+    }
+
+    .no-webp .intro .star.star8 {
+        background: url(../img/intro/smallSize/background/star8.png);
     }
 
     .my-services {

@@ -435,8 +435,19 @@
 
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-        <script type="module" src="js\language-db.js"></script>
         <script type="text/javascript" src="js\index.js"></script>
-        <script type="module" src="js\switch-language.js"></script>                         
+        <script src="js\modernizr-custom.js"></script>
+        <script>
+        // Modernizr used to detect webp compatability.
+        Modernizr.on('webp', function (result) {
+            if (result) {
+            // supported
+            } else {
+            // not-supported
+            }
+        });
+        </script>                        
+        <script type="module" src="js\switch-language.js"></script> 
+        <script type="module" src="js\language-db.js"></script>
     </body>
 </html>
