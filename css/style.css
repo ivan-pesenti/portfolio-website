@@ -538,7 +538,8 @@ section .star {
 }
 
 /* Media query for loading smaller images */
-@media only screen and (max-width: 640px){
+@media (max-width: 640px){
+    /* @media only screen and (max-width: 640px){ */
     .webp .intro {
         background-image: url(../img/intro/smallSize/cover.webp);
     }
@@ -628,12 +629,10 @@ section .star {
     }
 
     .webp .my-services {
-        background-attachment: scroll;
         background-image: url(../img/services/smallSize/services-01.webp);
     }
 
     .no-webp .my-services {
-        background-attachment: scroll;
         background-image: url(../img/services/smallSize/services-01.png);
     }
 }
