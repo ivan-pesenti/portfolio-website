@@ -63,7 +63,8 @@ body {
     /* IE and Edge */
 }
 
-img {
+img,
+picture {
     display: block;
     max-width: 100%;
 }
