@@ -339,7 +339,8 @@ header button:focus {
     width: 100%;
 }
 
-.no-webp .intro {
+.no-webp .intro,
+.no-js .intro {
     background-color: var(--clr-dark);
     background-image: url(../img/intro/cover.png);
     background-size: cover;
@@ -368,7 +369,8 @@ section .star {
     background: url(../img/intro/background/star1.webp);
 }
 
-.no-webp .intro .star.star1 {
+.no-webp .intro .star.star1,
+.no-js .intro .star.star1 {
     animation-delay: 0s;
     background: url(../img/intro/background/star1.png);
 }
@@ -378,7 +380,8 @@ section .star {
     background: url(../img/intro/background/star2.webp);
 }
 
-.no-webp .intro .star.star2 {
+.no-webp .intro .star.star2,
+.no-js .intro .star.star2 {
     animation-delay: -1s;
     background: url(../img/intro/background/star2.png);
 }
@@ -388,7 +391,8 @@ section .star {
     background: url(../img/intro/background/star3.webp);
 }
 
-.no-webp .intro .star.star3 {
+.no-webp .intro .star.star3,
+.no-js .intro .star.star3 {
     animation-delay: -2s;
     background: url(../img/intro/background/star3.png);
 }
@@ -398,7 +402,8 @@ section .star {
     background: url(../img/intro/background/star4.webp);
 }
 
-.no-webp .intro .star.star4 {
+.no-webp .intro .star.star4,
+.no-js .intro .star.star4 {
     animation-delay: -3s;
     background: url(../img/intro/background/star4.png);
 }
@@ -408,7 +413,8 @@ section .star {
     background: url(../img/intro/background/star5.webp);
 }
 
-.no-webp .intro .star.star5 {
+.no-webp .intro .star.star5,
+.no-js .intro .star.star5 {
     animation-delay: -4s;
     background: url(../img/intro/background/star5.png);
 }
@@ -418,7 +424,8 @@ section .star {
     background: url(../img/intro/background/star6.webp);
 }
 
-.no-webp .intro .star.star6 {
+.no-webp .intro .star.star6,
+.no-js .intro .star.star6 {
     animation-delay: -5s;
     background: url(../img/intro/background/star6.png);
 }
@@ -428,7 +435,8 @@ section .star {
     background: url(../img/intro/background/star7.webp);
 }
 
-.no-webp .intro .star.star7 {
+.no-webp .intro .star.star7,
+.no-js .intro .star.star7 {
     animation-delay: -6s;
     background: url(../img/intro/background/star7.png);
 }
@@ -438,7 +446,8 @@ section .star {
     background: url(../img/intro/background/star8.webp);
 }
 
-.no-webp .intro .star.star8 {
+.no-webp .intro .star.star8,
+.no-js .intro .star.star8 {
     animation-delay: -7s;
     background: url(../img/intro/background/star8.png);
 }
@@ -544,7 +553,8 @@ section .star {
         background-image: url(../img/intro/smallSize/cover.webp);
     }
 
-    .no-webp .intro {
+    .no-webp .intro,
+    .no-js .intro {
         background-image: url(../img/intro/smallSize/cover.png);
     }
 
@@ -553,7 +563,8 @@ section .star {
         background: url(../img/intro/smallSize/background/star1.webp);
     }
 
-    .no-webp .intro .star.star1 {
+    .no-webp .intro .star.star1,
+    .no-js .intro .star.star1 {
         animation-delay: 0s;
         background: url(../img/intro/smallSize/background/star1.png);
     }
@@ -563,7 +574,8 @@ section .star {
         background: url(../img/intro/smallSize/background/star2.webp);
     }
 
-    .no-webp .intro .star.star2 {
+    .no-webp .intro .star.star2,
+    .no-js .intro .star.star2 {
         animation-delay: -1s;
         background: url(../img/intro/smallSize/background/star2.png);
     }
@@ -573,7 +585,8 @@ section .star {
         background: url(../img/intro/smallSize/background/star3.webp);
     }
 
-    .no-webp .intro .star.star3 {
+    .no-webp .intro .star.star3,
+    .no-js .intro .star.star3 {
         animation-delay: -2s;
         background: url(../img/intro/smallSize/background/star3.png);
     }
@@ -583,7 +596,8 @@ section .star {
         background: url(../img/intro/smallSize/background/star4.webp);
     }
 
-    .no-webp .intro .star.star4 {
+    .no-webp .intro .star.star4,
+    .no-js .intro .star.star4 {
         animation-delay: -3s;
         background: url(../img/intro/smallSize/background/star4.png);
     }
@@ -593,7 +607,8 @@ section .star {
         background: url(../img/intro/smallSize/background/star5.webp);
     }
 
-    .no-webp .intro .star.star5 {
+    .no-webp .intro .star.star5,
+    .no-js .intro .star.star5 {
         animation-delay: -4s;
         background: url(../img/intro/smallSize/background/star5.png);
     }
@@ -603,7 +618,8 @@ section .star {
         background: url(../img/intro/smallSize/background/star6.webp);
     }
 
-    .no-webp .intro .star.star6 {
+    .no-webp .intro .star.star6,
+    .no-js .intro .star.star6 {
         animation-delay: -5s;
         background: url(../img/intro/smallSize/background/star6.png);
     }
@@ -613,7 +629,8 @@ section .star {
         background: url(../img/intro/smallSize/background/star7.webp);
     }
 
-    .no-webp .intro .star.star7 {
+    .no-webp .intro .star.star7,
+    .no-js .intro .star.star7 {
         animation-delay: -6s;
         background: url(../img/intro/smallSize/background/star7.png);
     }
@@ -623,7 +640,8 @@ section .star {
         background: url(../img/intro/smallSize/background/star8.webp);
     }
 
-    .no-webp .intro .star.star8 {
+    .no-webp .intro .star.star8,
+    .no-js .intro .star.star8 {
         animation-delay: -7s;
         background: url(../img/intro/smallSize/background/star8.png);
     }
@@ -632,7 +650,8 @@ section .star {
         background-image: url(../img/services/smallSize/services-01.webp);
     }
 
-    .no-webp .my-services {
+    .no-webp .my-services,
+    .no-js .my-services {
         background-image: url(../img/services/smallSize/services-01.png);
     }
 }
@@ -656,7 +675,8 @@ section .star {
 
 }
 
-.no-webp .my-services {    
+.no-webp .my-services,
+.no-js .my-services {    
     color: var(--clr-light);
     text-align: center;
     
@@ -959,7 +979,8 @@ section .star {
     transition: visibility .6s cubic-bezier(0.6, 0.04, 0.98, 0.335), opacity .6s cubic-bezier(0.6, 0.04, 0.98, 0.335), transform .6s cubic-bezier(0.6, 0.04, 0.98, 0.335);
   }
 
-  .no-webp #rocketmeluncur {
+  .no-webp #rocketmeluncur,
+  .no-js #rocketmeluncur {
     position: fixed;
     bottom: 50px;
     z-index: 7;
@@ -993,7 +1014,8 @@ section .star {
     transform-origin: 50% 0
   }
 
-  .no-webp #rocketmeluncur i {
+  .no-webp #rocketmeluncur i,
+  .no-js #rocketmeluncur i {
     display: block;
     margin-top: 48px;
     height: 14px;    
