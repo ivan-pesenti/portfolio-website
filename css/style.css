@@ -627,18 +627,39 @@ section .star {
         background: url(../img/intro/smallSize/background/star8.png);
     }
 
-    .my-services {
+    .webp .my-services {
         background-image: url(../img/services/smallSize/services-01.webp);
+    }
+
+    .no-webp .my-services {
+        background-image: url(../img/services/smallSize/services-01.png);
     }
 }
 
 /* My Services section */
 
-.my-services {    
+.webp .my-services {    
     color: var(--clr-light);
     text-align: center;
     
     background-image: url(../img/services/services-01.webp);
+    background-color: var(--clr-dark);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+
+}
+
+.no-webp .my-services {    
+    color: var(--clr-light);
+    text-align: center;
+    
+    background-image: url(../img/services/services-01.png);
     background-color: var(--clr-dark);
     -webkit-background-size: cover;
     -moz-background-size: cover;
