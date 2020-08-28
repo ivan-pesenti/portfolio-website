@@ -645,15 +645,6 @@ section .star {
         animation-delay: -7s;
         background: url(../img/intro/smallSize/background/star8.png);
     }
-
-    .webp .my-services {
-        background-image: url(../img/services/smallSize/services-01.webp);
-    }
-
-    .no-webp .my-services,
-    .no-js .my-services {
-        background-image: url(../img/services/smallSize/services-01.png);
-    }
 }
 
 /* My Services section */
@@ -735,6 +726,18 @@ section .star {
 
 .service h3 {
     text-align: left;
+}
+
+@media (max-width: 640px){
+
+    .webp .my-services {
+        background-image: url(../img/services/smallSize/services-01.webp);
+    }
+
+    .no-webp .my-services,
+    .no-js .my-services {
+        background-image: url(../img/services/smallSize/services-01.png);
+    }
 }
 
 @media (min-width: 700px) {
