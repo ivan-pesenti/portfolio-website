@@ -28,7 +28,14 @@ const alienLinks = document.querySelectorAll('.alien__link');
 // manage open/close of navbar
 alienToggle.addEventListener('click', () => {
     document.getElementById('alienToToggle').classList.toggle('fa-times-circle');
+    // hide burger menu when switch language menu is opened and viceversa
+    var navToggle = document.querySelector(".nav-toggle");    
     document.body.classList.toggle('alien-open');
+    if (document.body.className.indexOf("alien-open") > -1) {
+        navToggle.style['z-index'] = 0;
+    } else {
+        navToggle.style['z-index'] = 1000;
+    }
 });
 
 
@@ -65,5 +72,8 @@ alienLinks.forEach(al => {
         document.body.classList.remove('alien-open');
         document.getElementById('alienToToggle').classList.toggle('fa-times-circle');
 
+        // unhide burger menu when the switch language menu is closed by selecting a language
+        var navToggle = document.querySelector(".nav-toggle");
+        navToggle.style['z-index'] = 1000;
     });
 });
