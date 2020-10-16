@@ -1,4 +1,4 @@
-const data = {
+export const data = {
     "english" : 
     {
         "homeNavbar": "<i class=\"fas fa-home\"></i>&nbsp;Home",

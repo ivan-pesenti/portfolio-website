@@ -1,12 +1,8 @@
-const switchLanguage = new SwitchLanguage();
-switchLanguage.setupNavbar();
-switchLanguage.addLinksOnButton();
-
-const rocketManager = new RocketManager();
-rocketManager.setupRocket();
-
-
-const run = () => {     
+export const run = (switchLanguage, rocketManager) => {    
+    switchLanguage.setupNavbar();
+    switchLanguage.addLinksOnButton();
+    rocketManager.setupRocket();
+    
     // declare variable
     const navToggle = document.querySelector('.nav-toggle');
     const navLinks = document.querySelectorAll('.nav__link');
@@ -27,12 +23,10 @@ const run = () => {
         link.addEventListener('click', () => {
             document.body.classList.remove('nav-open');
             document.getElementById('iconToToggle').classList.toggle('fa-times-circle');
-    
+            
             // unhide switch language menu when the navbar is closed by selecting a section of the page
             var alienToggle = document.querySelector(".alien-toggle");
             alienToggle.style['z-index'] = 1000;
         });
     });    
 }
-
-run();

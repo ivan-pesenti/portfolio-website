@@ -1,5 +1,5 @@
-class RocketManager {
-    setupRocket = function () {
+export class RocketManager {
+    setupRocket() {
         jQuery(window).scroll(function(){
             if(jQuery(window).scrollTop()<50){
                 jQuery('#rocketmeluncur').slideUp(500);

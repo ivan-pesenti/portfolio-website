@@ -1,4 +1,6 @@
-class SwitchLanguage {
+import { data } from "./language-db";
+
+export class SwitchLanguage {
 
     constructor(){
         // item to change based on the language
@@ -27,7 +29,7 @@ class SwitchLanguage {
         this.alienLinks = document.querySelectorAll('.alien__link');      
     }
 
-    setupNavbar = function () {
+    setupNavbar() {
         // manage open/close of navbar
         this.alienToggle.addEventListener('click', () => {
             document.getElementById('alienToToggle').classList.toggle('fa-times-circle');
@@ -42,7 +44,7 @@ class SwitchLanguage {
         });
     }
 
-    addLinksOnButton = function () {
+    addLinksOnButton() {
          // loop on link in order to add/remove class active from buttons    
          this.alienLinks.forEach(al => {
             al.addEventListener('click', () => {        
