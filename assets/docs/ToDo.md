@@ -17,3 +17,4 @@
 # to convert the app to webpack
 1. switch all references by using npm
 1. fix up the structure of the project with import/export and so on
+1. remove old index.html file when done
