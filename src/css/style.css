@@ -328,7 +328,7 @@ header button:focus {
 
 .webp .intro {
     background-color: var(--clr-dark);
-    background-image: url(../../assets/img/intro/cover.webp);
+    background-image: url(../assets/img/intro/cover.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -342,7 +342,7 @@ header button:focus {
 .no-webp .intro,
 .no-js .intro {
     background-color: var(--clr-dark);
-    background-image: url(../../assets/img/intro/cover.webp);
+    background-image: url(../assets/img/intro/cover.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -366,90 +366,90 @@ section .star {
 
 .webp .intro .star.star1 {
     animation-delay: 0s;
-    background: url(../../assets/img/intro/background/star1.webp);
+    background: url(../assets/img/intro/background/star1.webp);
 }
 
 .no-webp .intro .star.star1,
 .no-js .intro .star.star1 {
     animation-delay: 0s;
-    background: url(../../assets/img/intro/background/star1.png);
+    background: url(../assets/img/intro/background/star1.png);
 }
 
 .webp .intro .star.star2 {
     animation-delay: -1s;
-    background: url(../../assets/img/intro/background/star2.webp);
+    background: url(../assets/img/intro/background/star2.webp);
 }
 
 .no-webp .intro .star.star2,
 .no-js .intro .star.star2 {
     animation-delay: -1s;
-    background: url(../../assets/img/intro/background/star2.png);
+    background: url(../assets/img/intro/background/star2.png);
 }
 
 .webp .intro .star.star3 {
     animation-delay: -2s;
-    background: url(../../assets/img/intro/background/star3.webp);
+    background: url(../assets/img/intro/background/star3.webp);
 }
 
 .no-webp .intro .star.star3,
 .no-js .intro .star.star3 {
     animation-delay: -2s;
-    background: url(../../assets/img/intro/background/star3.png);
+    background: url(../assets/img/intro/background/star3.png);
 }
 
 .webp .intro .star.star4 {
     animation-delay: -3s;
-    background: url(../../assets/img/intro/background/star4.webp);
+    background: url(../assets/img/intro/background/star4.webp);
 }
 
 .no-webp .intro .star.star4,
 .no-js .intro .star.star4 {
     animation-delay: -3s;
-    background: url(../../assets/img/intro/background/star4.png);
+    background: url(../assets/img/intro/background/star4.png);
 }
 
 .webp .intro .star.star5 {
     animation-delay: -4s;
-    background: url(../../assets/img/intro/background/star5.webp);
+    background: url(../assets/img/intro/background/star5.webp);
 }
 
 .no-webp .intro .star.star5,
 .no-js .intro .star.star5 {
     animation-delay: -4s;
-    background: url(../../assets/img/intro/background/star5.png);
+    background: url(../assets/img/intro/background/star5.png);
 }
 
 .webp .intro .star.star6 {
     animation-delay: -5s;
-    background: url(../../assets/img/intro/background/star6.webp);
+    background: url(../assets/img/intro/background/star6.webp);
 }
 
 .no-webp .intro .star.star6,
 .no-js .intro .star.star6 {
     animation-delay: -5s;
-    background: url(../../assets/img/intro/background/star6.png);
+    background: url(../assets/img/intro/background/star6.png);
 }
 
 .webp .intro .star.star7 {
     animation-delay: -6s;
-    background: url(../../assets/img/intro/background/star7.webp);
+    background: url(../assets/img/intro/background/star7.webp);
 }
 
 .no-webp .intro .star.star7,
 .no-js .intro .star.star7 {
     animation-delay: -6s;
-    background: url(../../assets/img/intro/background/star7.png);
+    background: url(../assets/img/intro/background/star7.png);
 }
 
 .webp .intro .star.star8 {
     animation-delay: -7s;
-    background: url(../../assets/img/intro/background/star8.webp);
+    background: url(../assets/img/intro/background/star8.webp);
 }
 
 .no-webp .intro .star.star8,
 .no-js .intro .star.star8 {
     animation-delay: -7s;
-    background: url(../../assets/img/intro/background/star8.png);
+    background: url(../assets/img/intro/background/star8.png);
 }
 
 @keyframes animate {
@@ -550,100 +550,100 @@ section .star {
 @media (max-width: 640px){
     /* @media only screen and (max-width: 640px){ */
     .webp .intro {
-        background-image: url(../../assets/img/intro/smallSize/cover.webp);
+        background-image: url(../assets/img/intro/smallSize/cover.webp);
     }
 
     .no-webp .intro,
     .no-js .intro {
-        background-image: url(../../assets/img/intro/smallSize/cover.png);
+        background-image: url(../assets/img/intro/smallSize/cover.png);
     }
 
     .webp .intro .star.star1 {
         animation-delay: 0s;
-        background: url(../../assets/img/intro/smallSize/background/star1.webp);
+        background: url(../assets/img/intro/smallSize/background/star1.webp);
     }
 
     .no-webp .intro .star.star1,
     .no-js .intro .star.star1 {
         animation-delay: 0s;
-        background: url(../../assets/img/intro/smallSize/background/star1.png);
+        background: url(../assets/img/intro/smallSize/background/star1.png);
     }
     
     .webp .intro .star.star2 {
         animation-delay: -1s;
-        background: url(../../assets/img/intro/smallSize/background/star2.webp);
+        background: url(../assets/img/intro/smallSize/background/star2.webp);
     }
 
     .no-webp .intro .star.star2,
     .no-js .intro .star.star2 {
         animation-delay: -1s;
-        background: url(../../assets/img/intro/smallSize/background/star2.png);
+        background: url(../assets/img/intro/smallSize/background/star2.png);
     }
     
     .webp .intro .star.star3 {
         animation-delay: -2s;
-        background: url(../../assets/img/intro/smallSize/background/star3.webp);
+        background: url(../assets/img/intro/smallSize/background/star3.webp);
     }
 
     .no-webp .intro .star.star3,
     .no-js .intro .star.star3 {
         animation-delay: -2s;
-        background: url(../../assets/img/intro/smallSize/background/star3.png);
+        background: url(../assets/img/intro/smallSize/background/star3.png);
     }
     
     .webp .intro .star.star4 {
         animation-delay: -3s;
-        background: url(../../assets/img/intro/smallSize/background/star4.webp);
+        background: url(../assets/img/intro/smallSize/background/star4.webp);
     }
 
     .no-webp .intro .star.star4,
     .no-js .intro .star.star4 {
         animation-delay: -3s;
-        background: url(../../assets/img/intro/smallSize/background/star4.png);
+        background: url(../assets/img/intro/smallSize/background/star4.png);
     }
     
     .webp .intro .star.star5 {
         animation-delay: -4s;
-        background: url(../../assets/img/intro/smallSize/background/star5.webp);
+        background: url(../assets/img/intro/smallSize/background/star5.webp);
     }
 
     .no-webp .intro .star.star5,
     .no-js .intro .star.star5 {
         animation-delay: -4s;
-        background: url(../../assets/img/intro/smallSize/background/star5.png);
+        background: url(../assets/img/intro/smallSize/background/star5.png);
     }
     
     .webp .intro .star.star6 {
         animation-delay: -5s;
-        background: url(../../assets/img/intro/smallSize/background/star6.webp);
+        background: url(../assets/img/intro/smallSize/background/star6.webp);
     }
 
     .no-webp .intro .star.star6,
     .no-js .intro .star.star6 {
         animation-delay: -5s;
-        background: url(../../assets/img/intro/smallSize/background/star6.png);
+        background: url(../assets/img/intro/smallSize/background/star6.png);
     }
     
     .webp .intro .star.star7 {
         animation-delay: -6s;
-        background: url(../../assets/img/intro/smallSize/background/star7.webp);
+        background: url(../assets/img/intro/smallSize/background/star7.webp);
     }
 
     .no-webp .intro .star.star7,
     .no-js .intro .star.star7 {
         animation-delay: -6s;
-        background: url(../../assets/img/intro/smallSize/background/star7.png);
+        background: url(../assets/img/intro/smallSize/background/star7.png);
     }
     
     .webp .intro .star.star8 {
         animation-delay: -7s;
-        background: url(../../assets/img/intro/smallSize/background/star8.webp);
+        background: url(../assets/img/intro/smallSize/background/star8.webp);
     }
 
     .no-webp .intro .star.star8,
     .no-js .intro .star.star8 {
         animation-delay: -7s;
-        background: url(../../assets/img/intro/smallSize/background/star8.png);
+        background: url(../assets/img/intro/smallSize/background/star8.png);
     }
 }
 
@@ -653,7 +653,7 @@ section .star {
     color: var(--clr-light);
     text-align: center;
     
-    background-image: url(../../assets/img/services/services-01.webp);
+    background-image: url(../assets/img/services/services-01.webp);
     background-color: var(--clr-dark);
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -671,7 +671,7 @@ section .star {
     color: var(--clr-light);
     text-align: center;
     
-    background-image: url(../../assets/img/services/services-01.png);
+    background-image: url(../assets/img/services/services-01.png);
     background-color: var(--clr-dark);
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -731,12 +731,12 @@ section .star {
 @media (max-width: 640px){
 
     .webp .my-services {
-        background-image: url(../../assets/img/services/smallSize/services-01.webp);
+        background-image: url(../assets/img/services/smallSize/services-01.webp);
     }
 
     .no-webp .my-services,
     .no-js .my-services {
-        background-image: url(../../assets/img/services/smallSize/services-01.png);
+        background-image: url(../assets/img/services/smallSize/services-01.png);
     }
 }
 
@@ -975,7 +975,7 @@ section .star {
     width: 26px;
     height: 48px;
     right: 25px;
-    background: url(../../assets/img/backtotop/rocket.webp) no-repeat 50% 0;
+    background: url(../assets/img/backtotop/rocket.webp) no-repeat 50% 0;
     opacity: 0;
     -webkit-transition: visibility .6s cubic-bezier(0.6, 0.04, 0.98, 0.335), opacity .6s cubic-bezier(0.6, 0.04, 0.98, 0.335), -webkit-transform .6s cubic-bezier(0.6, 0.04, 0.98, 0.335);
     -moz-transition: visibility .6s cubic-bezier(0.6, 0.04, 0.98, 0.335), opacity .6s cubic-bezier(0.6, 0.04, 0.98, 0.335), -moz-transform .6s cubic-bezier(0.6, 0.04, 0.98, 0.335);
@@ -992,7 +992,7 @@ section .star {
     width: 26px;
     height: 48px;
     right: 25px;
-    background: url(../../assets/img/backtotop/rocket.png) no-repeat 50% 0;
+    background: url(../assets/img/backtotop/rocket.png) no-repeat 50% 0;
     opacity: 0;
     -webkit-transition: visibility .6s cubic-bezier(0.6, 0.04, 0.98, 0.335), opacity .6s cubic-bezier(0.6, 0.04, 0.98, 0.335), -webkit-transform .6s cubic-bezier(0.6, 0.04, 0.98, 0.335);
     -moz-transition: visibility .6s cubic-bezier(0.6, 0.04, 0.98, 0.335), opacity .6s cubic-bezier(0.6, 0.04, 0.98, 0.335), -moz-transform .6s cubic-bezier(0.6, 0.04, 0.98, 0.335);
@@ -1007,7 +1007,7 @@ section .star {
     display: block;
     margin-top: 48px;
     height: 14px;    
-    background: url(../../assets/img/backtotop/rocket.webp) no-repeat 50% -48px;
+    background: url(../assets/img/backtotop/rocket.webp) no-repeat 50% -48px;
     opacity: .5;
     -webkit-transition: -webkit-transform .2s;
     -moz-transition: -moz-transform .2s;
@@ -1022,7 +1022,7 @@ section .star {
     display: block;
     margin-top: 48px;
     height: 14px;    
-    background: url(../../assets/img/backtotop/rocket.png) no-repeat 50% -48px;
+    background: url(../assets/img/backtotop/rocket.png) no-repeat 50% -48px;
     opacity: .5;
     -webkit-transition: -webkit-transform .2s;
     -moz-transition: -moz-transform .2s;

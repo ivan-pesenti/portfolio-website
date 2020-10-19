@@ -5,7 +5,8 @@ const {merge} = require("webpack-merge");
 module.exports = merge(common, {
     mode: "production",
     output: {
-        filename: "main.[contenthash].js",
-        path: path.resolve(__dirname, "dist")
+        filename: "main.[fullhash].js",
+        path: path.resolve(__dirname, "dist"),
+        publicPath: "http://127.0.0.1:5500/dist/"
     }
 });
