@@ -4,6 +4,7 @@ module.exports = {
     entry: "./src/index.js",
     plugins: [
         new HtmlWebpackPlugin({
+            title: 'ivan-pesenti-dev',
             template: './src/template.html',
             favicon: './src/assets/img/favicon/bracket.webp'
         })
