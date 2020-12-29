@@ -1,10 +1,8 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 module.exports = {
     entry: "./src/index.js",
     plugins: [
-        new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
             template: './src/template.html',
             favicon: './src/assets/img/favicon/bracket.webp'
@@ -31,6 +29,5 @@ module.exports = {
                 }
             }
         ]
-    }/*,
-    devtool: 'source-map'*/
+    }
 }
