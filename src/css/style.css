@@ -7,7 +7,7 @@
 /* custom properties, update these for your own design */
 
 :root {
-  --ff-primary: "Lora", serif;
+  --ff-primary: "Roboto", sans-serif;
   --ff-secondary: "Shadows Into Light", cursive;
 
   --fw-reg: 5;
