@@ -725,7 +725,7 @@ section .star {
 }
 
 .service p {
-  text-align: justify;
+  text-align: left;
 }
 
 .service h3 {
@@ -767,7 +767,7 @@ section .star {
 }
 
 .about-me p {
-  text-align: justify;
+  text-align: left;
 }
 
 .about-me__container p::selection {
