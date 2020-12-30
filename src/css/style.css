@@ -561,7 +561,7 @@ section .star {
 
   .no-webp .intro,
   .no-js .intro {
-    background-image: url(../assets/img/intro/smallSize/cover.png);
+    background-image: url(../assets/img/intro/smallSize/cover.jpg);
   }
 
   .webp .intro .star.star1 {
