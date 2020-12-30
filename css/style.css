@@ -676,7 +676,7 @@ section .star {
   color: var(--clr-light);
   text-align: center;
 
-  background-image: url(../img/services/services-01.png);
+  background-image: url(../img/services/services-01.jpg);
   background-color: var(--clr-dark);
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -739,7 +739,7 @@ section .star {
 
   .no-webp .my-services,
   .no-js .my-services {
-    background-image: url(../img/services/smallSize/services-01.png);
+    background-image: url(../img/services/smallSize/services-01.jpg);
   }
 }
 
