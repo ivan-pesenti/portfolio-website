@@ -1,5 +1,9 @@
 # important things todo
 
+- resize services-01 png image full screen as it is greter than 244kb
+- fix warning that appear on "npm run build" command
+- favicon not showing on hard-reload in the browser. wrong reference?
+
 # done
 
 # notes
@@ -17,6 +21,3 @@
 - create a second theme to switch between
 
 # to convert the app to webpack
-
-1. switch all references by using npm
-1. fix up the structure of the project with import/export and so on
