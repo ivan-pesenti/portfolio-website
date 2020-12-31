@@ -13,7 +13,8 @@ export class SwitchLanguage {
         this.subtitleAbout = document.querySelector('.section__subtitle--about');
         this.bodyAboutFirst = document.querySelector('.about-me__body').getElementsByTagName('p')[0];
         this.bodyAboutSecond = document.querySelector('.about-me__body').getElementsByTagName('p')[1];
-        this.bodyAboutFinal = document.querySelector('.about-me__final').getElementsByTagName('p')[0];
+        this.bodyAboutFinal_1 = document.querySelector('.about-me__final').getElementsByTagName('span')[0];
+        this.bodyAboutFinal_2 = document.querySelector('.about-me__final').getElementsByTagName('span')[1];
         this.titleServices = document.querySelector('.section__title--services');
         this.subtitleServicesFirst = document.querySelector('.services').getElementsByTagName('h3')[0];
         this.bodyServicesFirst = document.querySelector('.services').getElementsByTagName('p')[0];
@@ -71,7 +72,8 @@ export class SwitchLanguage {
                 this.subtitleAbout.innerHTML = languageData.subtitleAbout;
                 this.bodyAboutFirst.innerHTML = languageData.bodyAboutFirst;
                 this.bodyAboutSecond.innerHTML = languageData.bodyAboutSecond;
-                this.bodyAboutFinal.innerHTML = languageData.bodyAboutLast;
+                this.bodyAboutFinal_1.innerHTML = languageData.bodyAboutLast_1;
+                this.bodyAboutFinal_2.innerHTML = languageData.bodyAboutLast_2;
                 this.titleServices.innerHTML = languageData.titleServices;
                 this.subtitleServicesFirst.innerHTML = languageData.subtitleServicesFirst;
                 this.bodyServicesFirst.innerHTML = languageData.bodyServicesFirst;
