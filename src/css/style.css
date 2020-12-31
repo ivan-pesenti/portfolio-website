@@ -6,13 +6,19 @@
 
 /* custom properties, update these for your own design */
 
+@font-face {
+  font-family: "PrimaryFont";
+  src: url("../assets/fonts/Roboto-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SecondaryFont";
+  src: url("../assets/fonts/ShadowsIntoLight-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
 :root {
-  --ff-primary: "Roboto", sans-serif;
-  --ff-secondary: "Shadows Into Light", cursive;
-
-  --fw-reg: 5;
-  --fw-bold: 700;
-
   --clr-light: #fff;
   --clr-dark: #303030;
   --clr-accent: #16e0bd;
@@ -47,7 +53,7 @@ html {
 body {
   background: var(--clr-light);
   color: var(--clr-dark);
-  font-family: var(--ff-primary);
+  font-family: "PrimaryFont";
   font-size: var(--fs-body);
   line-height: 1.6;
 }
@@ -150,7 +156,7 @@ h3 {
 .section__subtitle--intro,
 .section__subtitle--services,
 .section__subtitle--skills {
-  font-family: var(--ff-secondary);
+  font-family: "SecondaryFont";
   margin-bottom: 1em;
   padding: 0.25em 0;
   color: var(--clr-accent);
