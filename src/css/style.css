@@ -786,7 +786,9 @@ section .star {
 
 .about-me__final img {
   display: inline;
-  vertical-align: text-bottom;
+  vertical-align: bottom;
+  margin-left: -6px;
+  margin-right: -10px;
 }
 
 @media (min-width: 700px) {
